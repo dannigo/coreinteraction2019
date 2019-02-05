@@ -1,0 +1,46 @@
+div {
+  float: left;
+  margin: 5px;
+}
+
+.prev{
+  background-color: white;
+  border: 2px dotted black;
+  width: 30px;
+  height: 30px;
+  box-shadow: 5px 5px black;
+  text-align: center;
+  border-radius: 5px;
+  position: relative;
+  font-size: 22px;
+
+}
+
+.prev:hover {
+  background-color: black;
+  color: white;
+}
+
+.next{
+  background-color: white;
+  border: 2px dotted black;
+  width: 30px;
+  height: 30px;
+  box-shadow: 5px 5px black;
+  text-align: center;
+  border-radius: 5px;
+  position: relative;
+  font-size: 22px;
+}
+
+.next:hover {
+  background-color: black;
+  color: white;
+}
+
+a {
+  color: white;
+}
+a:hover {
+  color: white;
+}

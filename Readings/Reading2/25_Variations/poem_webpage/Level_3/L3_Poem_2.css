@@ -1,0 +1,134 @@
+.one{
+    border-style: dashed;
+    border: 2px dashed black;
+    margin: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.two{
+    border-style: dotted;
+    border: 2px dotted black;
+    margin: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.three{
+    border-style: solid;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.four{
+    border-style: dashed;
+    border: 2px dashed black;
+    margin: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.five{
+    border-style: dotted;
+    border: 2px dotted black;
+    margin: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.six{
+    border-style: solid;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.seven{
+    border-style: dashed;
+    border: 2px dashed black ;
+    margin: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.byline{
+    border-style: double;
+    border: 2px double black;
+    margin: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.prev {
+  background-color: white;
+  border: 2px dotted black;
+  width: 30px;
+  height: 30px;
+  box-shadow: 5px 5px black;
+  text-align: center;
+  border-radius: 5px;
+  position: relative;
+  font-size: 22px;
+  margin: 5px;
+  float: right;
+
+}
+
+.prev:hover {
+  background-color: black;
+  color: white;
+}
+
+.next{
+  background-color: white;
+  border: 2px dotted black;
+  width: 30px;
+  height: 30px;
+  box-shadow: 5px 5px black;
+  text-align: center;
+  border-radius: 5px;
+  position: relative;
+  font-size: 22px;
+  margin: 5px;
+  float: right;
+
+}
+
+.next:hover {
+  background-color: black;
+  color: white;
+}
+
+a {
+  color: white;
+}
+a:hover {
+  color: white;
+}
