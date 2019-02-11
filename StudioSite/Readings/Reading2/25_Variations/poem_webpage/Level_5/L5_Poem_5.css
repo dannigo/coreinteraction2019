@@ -1,0 +1,100 @@
+body {
+  color: black;
+  background-color: black;
+  font-family: futura;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.prev{
+  background-color: black;
+  border: 2px dotted white;
+  width: 30px;
+  height: 30px;
+  box-shadow: 5px 5px white;
+  text-align: center;
+  border-radius: 5px;
+  position: absolute;
+  top: 0px;
+  right: 50px;
+  font-size: 22px;
+  float: left;
+}
+
+.prev:hover {
+  background-color: white;
+  color: black;
+}
+
+.next{
+  background-color: black;
+  border: 2px dotted white;
+  width: 30px;
+  height: 30px;
+  box-shadow: 5px 5px white;
+  text-align: center;
+  border-radius: 5px;
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  font-size: 22px;
+  float: left;
+}
+
+.next:hover {
+  background-color: white;
+  color: black;
+}
+
+div {
+  background-color: black;
+  color: white;
+}
+
+
+.title {
+  background-color: black;
+  color: white;
+  margin: auto;
+  text-align: center;
+  border: 4px dotted;
+  padding: 20px;
+  border-radius: 5000px;
+  width: 1000px;
+  height: 1000px;
+
+  animation-name: blackhole;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+@keyframes blackhole {
+    0% {
+      width: 0px;
+      height: 0px;
+    }
+
+    25% {
+      width: 1000px;
+      height: 1000px;
+      color: black;
+    }
+
+    50% {
+      width: 0px;
+      height: 0px;
+    }
+
+    100% {
+      width: 1000px;
+      height: 1000px;
+      color: black;
+    }
+
+}
+
+.blackhole {
+  font-size: 50px;
+}

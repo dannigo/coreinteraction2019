@@ -1,0 +1,385 @@
+body {
+  background: white;
+  font-family: monospace;
+  line-height: 40px;
+  font-size: 20px;
+
+  animation-name: bg-color;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+@keyframes bg-color {
+  0% {
+    background-color: white;
+  }
+
+  25% {
+    background-color: grey;
+  }
+
+  50% {
+    background-color: black;
+  }
+
+  100% {
+    background-color: grey;
+  }
+
+}
+
+div {
+  margin: 10px;
+  padding: 10px;
+}
+
+.title {
+  border: 2px dotted black;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 30px;
+  position: relative;
+  border-radius: 5px;
+
+  animation-name: title;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes title {
+  0% {
+    box-shadow: 5px 5px white;
+  }
+
+  25% {
+    box-shadow: 5px 5px black;
+  }
+
+  50% {
+    box-shadow: 5px 5px white;
+  }
+
+  100% {
+    box-shadow: 5px 5px black;
+  }
+}
+
+
+.Stanza1 {
+  border: 2px hidden;
+  position: relative;
+  width: 300px;
+  height: 250px;
+  border-radius: 10px;
+
+  animation-name: one;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes one {
+  0% {
+    left: 100px;
+    top: 0px;
+  }
+
+  25% {
+    left: 200px;
+    top: 20px;
+  }
+
+  50% {
+    left: 300px;
+    top: 0px;
+  }
+
+  100% {
+    left: 400px;
+    top: 20px;
+  }
+
+}
+
+.Stanza2 {
+  border: 2px hidden;
+  position: relative;
+  width: 400px;
+  height: 200px;
+  border-radius: 10px;
+
+  animation-name: two;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay: 1s;
+}
+
+@keyframes two {
+  0% {
+    left: 200px;
+    top: 30px;
+  }
+
+  25% {
+    left: 300px;
+    top: 0px;
+  }
+
+  50% {
+    left: 400px;
+    top: 30px;
+  }
+
+  100% {
+    left: 500px;
+    top: 0px;
+  }
+
+}
+
+.Stanza3 {
+  border: 2px hidden;
+  position: relative;
+  width: 350px;
+  height: 250px;
+  border-radius: 10px;
+
+  animation-name: three;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay: 1s;
+}
+
+@keyframes three {
+  0% {
+    left: 300px;
+    top: 0px;
+  }
+
+  25% {
+    left: 400px;
+    top: 40px;
+  }
+
+  50% {
+    left: 500px;
+    top: 0px;
+  }
+
+  100% {
+    left: 600px;
+    top: 40px;
+  }
+
+}
+
+.Stanza4 {
+  border: 2px hidden;
+  position: relative;
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+
+  animation-name: four;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay: 1s;
+}
+
+@keyframes four {
+  0% {
+    left: 400px;
+    top: 0px;
+  }
+
+  25% {
+    left: 500px;
+    top: 50px;
+  }
+
+  50% {
+    left: 600px;
+    top: 0px;
+  }
+
+  100% {
+    left: 700px;
+    top: 50px;
+  }
+
+}
+
+
+.Stanza5 {
+  border: 2px hidden;
+  position: relative;
+  width: 550px;
+  height: 150px;
+  border-radius: 10px;
+
+  animation-name: five;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay: 1s;
+}
+
+@keyframes five {
+  0% {
+    left: 500px;
+    top: 0px;
+  }
+
+  25% {
+    left: 600px;
+    top: 60px;
+  }
+
+  50% {
+    left: 700px;
+    top: 0px;
+  }
+
+  100% {
+    left: 800px;
+    top: 60px;
+  }
+
+}
+
+
+.Stanza6 {
+  border: 2px hidden;
+  position: relative;
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+
+  animation-name: six;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay: 1s;
+}
+
+@keyframes six {
+  0% {
+    left: 600px;
+    top: 0px;
+  }
+
+  25% {
+    left: 700px;
+    top: 70px;
+  }
+
+  50% {
+    left: 800px;
+    top: 0px;
+  }
+
+  100% {
+    left: 900px;
+    top: 70px;
+  }
+
+}
+
+.Stanza7 {
+  border: 2px hidden;
+  position: relative;
+  width: 550px;
+  height: 130px;
+  border-radius: 10px;
+
+  animation-name: seven;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay: 1s;
+}
+
+@keyframes seven {
+  0% {
+    left: 700px;
+    top: 0px;
+  }
+
+  25% {
+    left: 800px;
+    top: 80px;
+  }
+
+  50% {
+    left: 900px;
+    top: 0px;
+  }
+
+  100% {
+    left: 1000px;
+    top: 80px;
+  }
+
+}
+
+.byline {
+  border: 2px dotted black;
+  text-align: center;
+  font-weight: bolder;
+  position: relative;
+}
+
+.next{
+  background-color: white;
+  border: 2px dotted black;
+  width: 30px;
+  height: 30px;
+  box-shadow: 5px 5px black;
+  text-align: center;
+  border-radius: 5px;
+  position: fixed;
+  font-size: 22px;
+  margin: 5px;
+  bottom: 10px;
+  right: 5px;
+}
+
+.prev{
+  background-color: white;
+  border: 2px dotted black;
+  width: 30px;
+  height: 30px;
+  box-shadow: 5px 5px black;
+  text-align: center;
+  border-radius: 5px;
+  position: fixed;
+  float: right;
+  font-size: 22px;
+  margin: 5px;
+  bottom: 10px;
+  right: 65px;
+}
+
+.next:hover {
+  background-color: black;
+  color: white;
+}
+
+.prev:hover {
+  background-color: black;
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
