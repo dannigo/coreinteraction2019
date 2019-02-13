@@ -1,0 +1,220 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nova Flat', cursive;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #56657c;
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #677891;
+}
+
+a:hover {
+    color: beige;
+    transition: .3s all linear;
+}
+
+.bar {
+    background-color: #4c5a70;
+    position: fixed;
+    width: 100%;
+    height: 95px;
+    box-shadow: 2px 2px 10px #424f63;
+    z-index: 100;
+}
+
+.buttonHome {
+    width: 60px;
+    height: 35px;
+    background: #424f63;
+    position: fixed;
+    text-align: center;
+    top: 30px;
+    left: 1430px;
+    font-size: 14px;
+    color: #677891;
+    padding: 8px;
+    z-index: 100;
+    font-family: 'Nova Flat', cursive;
+}
+.buttonHome:before {
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 15px solid #424f63;
+    z-index: 100;
+}
+.buttonHome:after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 15px solid #424f63;
+    z-index: 100;
+}
+
+.buttonCards {
+    width: 60px;
+    height: 35px;
+    background: #424f63;
+    position: fixed;
+    text-align: center;
+    top: 30px;
+    left: 1510px;
+    font-size: 14px;
+    color: #677891;
+    padding: 8px;
+    z-index: 100;
+    font-family: 'Nova Flat', cursive;
+}
+.buttonCards:before {
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 15px solid #424f63;
+    z-index: 100;
+}
+.buttonCards:after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 15px solid #424f63;
+    z-index: 100;
+}
+
+.buttonLink {
+    width: 60px;
+    height: 35px;
+    background: #424f63;
+    position: fixed;
+    text-align: center;
+    top: 30px;
+    left: 1590px;
+    font-size: 14px;
+    color: #677891;
+    padding: 8px;
+    z-index: 100;
+    font-family: 'Nova Flat', cursive;
+}
+.buttonLink:before {
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 15px solid #424f63;
+    z-index: 100;
+}
+.buttonLink:after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 15px solid #424f63;
+    z-index: 100;
+}
+
+.title {
+    position: fixed;
+    font-family: 'Nova Flat', cursive;
+    font-size: 65px;
+    letter-spacing: 3px;
+    color: beige;
+    padding-top: 8px;
+    left: 22px;
+    z-index: 100;
+}
+
+.about {
+    position: absolute;
+    padding-left: 150px;
+    top: 100px;
+    animation-name: page;
+    animation-duration: 3s; 
+}
+
+@keyframes page {
+    0% {
+        opacity: 0;
+    }
+  
+    100% {
+        opacity: 10;
+    }
+}
+
+
+.about img {
+    width: 450px;
+    float: left;
+    margin-right: 30px;
+}
+
+.text {
+    padding-right: 150px;
+    top: 140px;
+    line-height: 26px;
+    letter-spacing: .5px;
+}
+
+h2 {
+    letter-spacing: .9px;
+}
+
+
+@media screen and (max-width: 1130px) {
+    
+    .title {
+        font-size: 60px;
+    }
+    
+}
+
+@media screen and (max-width: 1005px) {
+    
+    .title {
+        font-size: 55px;
+    }
+    
+}
+
+@media screen and (max-width: 950px) {
+    
+    .title {
+        font-size: 40px;
+    }
+    
+}
