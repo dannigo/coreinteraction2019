@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nova Flat', cursive;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #56657c;
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #677891;
+}
+
+a:hover {
+    color: white;
+    transition: .3s all linear;
+}
+
+a:active {
+    color: beige;
+    font-style: italic;
+}
+
+a:visited {
+    color: beige;
+}
+
+.bar {
+    background-color: #4c5a70;
+    position: fixed;
+    width: 100%;
+    height: 95px;
+    box-shadow: 2px 2px 10px #424f63;
+    z-index: 100;
+}
+
+.title {
+    position: fixed;
+    font-family: 'Nova Flat', cursive;
+    font-size: 65px;
+    letter-spacing: 3px;
+    color: beige;
+    padding-top: 8px;
+    left: 22px;
+    z-index: 100;
+}
+
+
+.info {
+    float: left;
+    padding-left: 150px;
+    padding-right: 150px;
+    position: fixed;
+    top: 20%;
+    width: 50%;
+}
+
+h3 {
+    position: absolute;
+    text-align: justify;
+    color: white;
+    font-size: 18px;
+    line-height: 38px;
+    letter-spacing: .4px;
+
+    animation-name: page;
+    animation-duration: 3s; 
+}
+
+h3::first-letter {
+    font-size: 75px;
+    font-family: 'Jim Nightshade', cursive;
+    float: left;
+    letter-spacing: 5px;
+    color: beige;
+}
+
+h3::first-line {
+    float: left;
+    font-family: 'Jim Nightshade', cursive;
+    font-size: 32px;
+    letter-spacing: 1px;
+    color: beige;
+}
+
+#main {
+    position: relative;
+    float: right;
+    top: 150px;
+    padding-left: 150px;
+    padding-right: 150px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(150px, auto);
+    grid-gap: 30px;
+    padding-bottom: 140px;
+
+    animation-name: page;
+    animation-duration: 3s;
+}
+
+#main img {
+    display: block;
+    width: 250px;
+}
+
+@keyframes page {
+    0% {
+        opacity: 0;
+    }
+  
+    100% {
+        opacity: 10;
+    }
+}
+
+
+@keyframes page {
+    0% {
+        opacity: 0;
+    }
+  
+    100% {
+        opacity: 10;
+    }
+}
+
+@media screen and (max-width: 1390px) {
+
+    .title {
+        font-size: 50px;
+        padding-top: 20px;
+    }
+
+    .info {
+        padding-left: 60px;
+    }
+    
+    h3 {
+        font-size: 16px;
+        line-height: 30px;
+
+    }
+
+    h3::first-letter {
+        font-size: 50px;
+        font-family: 'Jim Nightshade', cursive;
+        float: left;
+        letter-spacing: 5px;
+        color: beige;
+    }
+    
+    h3::first-line {
+        float: left;
+        font-family: 'Jim Nightshade', cursive;
+        font-size: 28px;
+        letter-spacing: 1px;
+        color: beige;
+    }
+
+    #main {
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: minmax(150px, auto);
+        grid-gap: 20px;
+    }
+
+    #main img {
+        width: 230px;
+    }
+}
