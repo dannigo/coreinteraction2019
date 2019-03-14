@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #efefef;
+}
+
+* {
+    box-sizing: border-box;
+} 
+
+.journal {
+    background-image: url(Images/Frontcopy.JPG);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    float: right;
+    right: 0px;
+    background-position: center;
+}
+
+.edit {
+    float: left;
+    width: 50%;
+    font-family: 'Lora', serif;
+    font-size: 19px;
+    line-height: 38px;
+    padding: 45px;
+    text-align: justify;
+    letter-spacing: .2px;
+}
+
+
+.prev {
+    position: fixed;
+    bottom: 30px;
+    left: 45px;
+    font-size: 19px;
+    background-color: #efefef;
+    padding: 3px;
+}
+
+.next {
+    position: fixed;
+    bottom: 30px;
+    right: 45px;
+    font-size: 19px;
+    background-color: #efefef;
+    padding: 3px;
+}
+
+a {
+    color: black;
+}
+
+.indent {
+    text-indent: 50px;
+}
