@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <script type="text/javascript" src="Clock.js"></script>
+
+        <title>
+            Exercise 4
+        </title>
+    </head>
+
+    <style>
+    
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #5a336e;
+            font-family: 'Inconsolata', monospace;
+        }
+
+        #name {
+            position: absolute;
+            bottom: 30px;
+            left: 30px;
+        }
+
+        #time {
+            position: absolute;
+            bottom: 0px;
+            left: 30px;
+        }
+
+        #clock {
+            width: 550px;
+            height: 550px;
+            background-color: #e8817f;
+            transform: rotate(5deg);
+            transition: 1s;
+            position: absolute;
+            border-radius: 50%;
+            left: 50%;
+            margin-top: 190px;
+        }
+
+        #clock2 {
+            width: 300px;
+            height: 300px;
+            background-color: #311f62;
+            transform: rotate(5deg);
+            transition: 1s;
+            position: absolute;
+            border-radius: 50%;
+            left: 50%;
+            z-index: 2;
+        }
+
+        #ticker {
+            z-index: 3;
+            transform: rotate(5deg);
+        }
+
+        #ticker2 {
+            transform: rotate(5deg);
+            z-index: 3;
+        }
+
+
+    </style>
+
+
+    <body>
+
+        <div id="clock">
+            <p id="ticker"></p>
+
+            <div id="clock2">
+                <p id="ticker2"></p>
+
+            </div>
+
+        </div>
+
+
+        <p id="name"></p>
+        <p id="time"></p>
+
+    </body>
+</html
