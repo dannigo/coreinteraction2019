@@ -29,7 +29,7 @@ window.addEventListener('load', function(e) {
         var ol = appleList.querySelector('ol');
         //add appleListItem to an element within an ordered list
         ol.appendChild(appleListItem);
-        //
+        //to each appleListItem, add appleName
         appleListItem.innerText = appleName;
         
 
