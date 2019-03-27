@@ -9,13 +9,13 @@ window.addEventListener('load', function(e) {
     //assign gridApples to all child elements with the specified class '.apple'
     var gridApples = document.querySelectorAll('.apple');
     
-
+    //
 	gridApples.forEach((gridApple, i) => {
         //for all elements specified under '.apple' -- on click, perform pickApple function
         gridApple.addEventListener('click', pickApple);
 	});
 
-
+    //assign the following to perform the function pickApple
 	function pickApple(e) {
         //assign appleGrid to all child elements with the specified ID 'apple-grid'
         var apple = e.target;
