@@ -1,0 +1,306 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#container {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#pass1 {
+    position: absolute;
+    top: 10px;
+    left: -80px;
+    width: 950px;
+    height: 375px;
+    transform: rotate(-15deg);
+    z-index: 3;
+    background-image: url(Passes/2017Sept21.1.png);
+}
+
+#pass2 {
+    position: absolute;
+    top: 300px;
+    left: 500px;
+    width: 950px;
+    height: 375px;
+    transform: rotate(25deg);
+    z-index: 2;
+    background-image: url(Passes/2017Sept21.2.png);
+}
+
+#pass3 {
+    position: absolute;
+    top: 600px;
+    left: 100px;
+    width: 950px;
+    height: 375px;
+    transform: rotate(-30deg);
+    z-index: 2;
+    background-image: url(Passes/2017Sept24.1.png);
+}
+
+#pass4 {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 950px;
+    height: 375px;
+    transform: rotate(-10deg);
+    z-index: 1;
+    background-image: url(Passes/2017Sept24.2.png);
+}
+
+#pass5 {
+    position: absolute;
+    top: -100px;
+    left: 0px;
+    width: 950px;
+    height: 375px;
+    transform: rotate(25deg);
+    z-index: 2;
+    background-image: url(Passes/2017Nov26.1.png);
+}
+
+#pass6 {
+    position: absolute;
+    top: 500px;
+    left: -300px;
+    width: 950px;
+    height: 375px;
+    transform: rotate(12deg);
+    z-index: 1;
+    background-image: url(Passes/2017Nov26.2.png);
+}
+
+#pass7 {
+    position: absolute;
+    top: -300px;
+    left: 950px;
+    width: 950px;
+    height: 375px;
+    transform: rotate(60deg);
+    z-index: 2;
+    background-image: url(Passes/2017Nov26.3.png);
+}
+
+
+#pass8 {
+    position: absolute;
+    top: -100px;
+    left: 950px;
+    width: 950px;
+    height: 375px;
+    transform: rotate(-30deg);
+    z-index: 1;
+    background-image: url(Passes/2018Jan20.1.png);
+}
+
+
+#pass9 {
+    position: absolute;
+    top: 300px;
+    left: 250px;
+    width: 950px;
+    height: 375px;
+    transform: rotate(5deg);
+    z-index: 4;
+    background-image: url(Passes/2018Jan20.2.png);
+}
+
+#pass10 {
+    position: absolute;
+    top: -300px;
+    left: 800px;
+    width: 950px;
+    height: 375px;
+    transform: rotate(-15deg);
+    z-index: -1;
+    background-image: url(Passes/2018Feb24.1.png);
+}
+
+#pass11 {
+    position: absolute;
+    top: 600px;
+    left: 550px;
+    width: 950px;
+    height: 375px;
+    transform: rotate(-35deg);
+    z-index: 4;
+    background-image: url(Passes/2018Feb27.1.png);
+}
+
+#pass12 {
+    position: absolute;
+    top: 600px;
+    left: 900px;
+    width: 950px;
+    height: 375px;
+    transform: rotate(650deg);
+    z-index: -1;
+    background-image: url(Passes/2018Feb27.2.png);
+}
+
+#pass13 {
+    position: absolute;
+    top: 500px;
+    left: 1300px;
+    width: 950px;
+    height: 375px;
+    transform: rotate(190deg);
+    z-index: 1;
+    background-image: url(Passes/2018Mar17.1.png);
+}
+
+#pass14 {
+    position: absolute;
+    top: 500px;
+    left: -200px;
+    width: 950px;
+    height: 375px;
+    transform: rotate(240deg);
+    z-index: 5;
+    background-image: url(Passes/2018Mar17.2.png);
+}
+
+#pass15 {
+    position: absolute;
+    top: 900px;
+    left: -80px;
+    width: 950px;
+    height: 375px;
+    transform: rotate(20deg);
+    z-index: 5;
+    background-image: url(Passes/2018Mar25.png);
+}
+
+#pass16 {
+    position: absolute;
+    top: 200px;
+    left: 1050px;
+    width: 950px;
+    height: 375px;
+    transform: rotate(200deg);
+    z-index: 5;
+    background-image: url(Passes/2018Apr19.1.png);
+}
+
+#pass17 {
+    position: absolute;
+    top: 800px;
+    left: 200px;
+    width: 950px;
+    height: 375px;
+    transform: rotate(-5deg);
+    z-index: 4;
+    background-image: url(Passes/2018Apr19.2.png);
+}
+
+#pass18 {
+    position: absolute;
+    top: 750px;
+    left: 1300px;
+    width: 950px;
+    height: 375px;
+    transform: rotate(5deg);
+    z-index: 6;
+    background-image: url(Passes/2018Aug20.1.png);
+}
+
+#pass19 {
+    position: absolute;
+    top: -300px;
+    left: -800px;
+    width: 950px;
+    height: 375px;
+    transform: rotate(15deg);
+    z-index: 4;
+    background-image: url(Passes/2018Aug20.2.png);
+}
+
+#pass20 {
+    position: absolute;
+    top: 390px;
+    left: 1250px;
+    width: 950px;
+    height: 375px;
+    transform: rotate(-30deg);
+    z-index: 4;
+    background-image: url(Passes/2018Sept29.1.png);
+}
+
+#pass21 {
+    position: absolute;
+    top: -300px;
+    left: -800px;
+    width: 950px;
+    height: 375px;
+    transform: rotate(15deg);
+    z-index: 4;
+    background-image: url(Passes/2018Sept30.1.png);
+}
+
+#pass22 {
+    position: absolute;
+    top: -235px;
+    left: 1430px;
+    width: 950px;
+    height: 375px;
+    transform: rotate(5deg);
+    z-index: 7;
+    background-image: url(Passes/2018Nov21.1.png);
+}
+
+#pass23 {
+    position: absolute;
+    top: -500px;
+    left: -50px;
+    width: 950px;
+    height: 375px;
+    transform: rotate(60deg);
+    z-index: 4;
+    background-image: url(Passes/2018Nov21.2.png);
+}
+
+#pass24 {
+    position: absolute;
+    top: 550px;
+    left: 1300px;
+    width: 950px;
+    height: 375px;
+    transform: rotate(70deg);
+    z-index: 5;
+    background-image: url(Passes/2019Jan20.1.png);
+}
+
+#pass25 {
+    position: absolute;
+    top: 1000px;
+    left: 600px;
+    width: 950px;
+    height: 375px;
+    transform: rotate(-40deg);
+    z-index: 7;
+    background-image: url(Passes/2019Mar15.1.png);
+}
+
+#pass26 {
+    position: absolute;
+    top: 550px;
+    left: 1500px;
+    width: 950px;
+    height: 375px;
+    transform: rotate(3deg);
+    z-index: 10;
+    background-image: url(Passes/2019Mar15.2.png);
+}
