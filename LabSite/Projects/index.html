@@ -1,45 +1,161 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, user-scalable=no">
-        <link rel="stylesheet" href="style.css">
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script type="text/javascript" src="index.js"></script>
-        <title> LAB PROJECT </title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
 
-    <body>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery.js"></script>
+    <script src="jquery-ui.min.js"></script>
+    <!-- <script type="text/javascript" src="index.js"></script> -->
 
-    <div id="container">
-        <div id="pass1" onmousedown='mydragg.startMoving(this,"container",event);' onmouseup='mydragg.stopMoving("container");'></div>
-        <div id="pass2" onmousedown='mydragg.startMoving(this,"container",event);' onmouseup='mydragg.stopMoving("container");'></div>
-        <div id="pass3"onmousedown='mydragg.startMoving(this,"container",event);' onmouseup='mydragg.stopMoving("container");'></div>
-        <div id="pass4" onmousedown='mydragg.startMoving(this,"container",event);' onmouseup='mydragg.stopMoving("container");'></div>
-        <div id="pass5" onmousedown='mydragg.startMoving(this,"container",event);' onmouseup='mydragg.stopMoving("container");'></div>
-        <div id="pass6" onmousedown='mydragg.startMoving(this,"container",event);' onmouseup='mydragg.stopMoving("container");'></div>
-        <div id="pass7" onmousedown='mydragg.startMoving(this,"container",event);' onmouseup='mydragg.stopMoving("container");'></div>
-        <div id="pass8" onmousedown='mydragg.startMoving(this,"container",event);' onmouseup='mydragg.stopMoving("container");'></div>
-        <div id="pass9" onmousedown='mydragg.startMoving(this,"container",event);' onmouseup='mydragg.stopMoving("container");'></div>
-        <div id="pass10" onmousedown='mydragg.startMoving(this,"container",event);' onmouseup='mydragg.stopMoving("container");'></div>
-        <div id="pass11" onmousedown='mydragg.startMoving(this,"container",event);' onmouseup='mydragg.stopMoving("container");'></div>
-        <div id="pass12" onmousedown='mydragg.startMoving(this,"container",event);' onmouseup='mydragg.stopMoving("container");'></div>
-        <div id="pass13" onmousedown='mydragg.startMoving(this,"container",event);' onmouseup='mydragg.stopMoving("container");'></div>
-        <div id="pass14" onmousedown='mydragg.startMoving(this,"container",event);' onmouseup='mydragg.stopMoving("container");'></div>
-        <div id="pass15" onmousedown='mydragg.startMoving(this,"container",event);' onmouseup='mydragg.stopMoving("container");'></div>
-        <div id="pass16" onmousedown='mydragg.startMoving(this,"container",event);' onmouseup='mydragg.stopMoving("container");'></div>
-        <div id="pass17" onmousedown='mydragg.startMoving(this,"container",event);' onmouseup='mydragg.stopMoving("container");'></div>
-        <div id="pass18" onmousedown='mydragg.startMoving(this,"container",event);' onmouseup='mydragg.stopMoving("container");'></div>
-        <div id="pass19" onmousedown='mydragg.startMoving(this,"container",event);' onmouseup='mydragg.stopMoving("container");'></div>
-        <div id="pass20" onmousedown='mydragg.startMoving(this,"container",event);' onmouseup='mydragg.stopMoving("container");'></div>
-        <div id="pass21" onmousedown='mydragg.startMoving(this,"container",event);' onmouseup='mydragg.stopMoving("container");'></div>
-        <div id="pass22" onmousedown='mydragg.startMoving(this,"container",event);' onmouseup='mydragg.stopMoving("container");'></div>
-        <div id="pass23" onmousedown='mydragg.startMoving(this,"container",event);' onmouseup='mydragg.stopMoving("container");'></div>
-        <div id="pass24" onmousedown='mydragg.startMoving(this,"container",event);' onmouseup='mydragg.stopMoving("container");'></div>
-        <div id="pass25" onmousedown='mydragg.startMoving(this,"container",event);' onmouseup='mydragg.stopMoving("container");'></div>
-        <div id="pass26" onmousedown='mydragg.startMoving(this,"container",event);' onmouseup='mydragg.stopMoving("container");'></div>
-    </div>
+    <title> LAB PROJECT </title>
+</head>
 
-    </body>
+<body>
+
+    <!-- <div id="container"> -->
+        <div id="pass1"></div>
+        <div id="pass2"></div>
+        <div id="pass3"></div>
+        <div id="pass4"></div>
+        <div id="pass5"></div>
+        <div id="pass6"></div>
+        <div id="pass7"></div>
+        <div id="pass8"></div>
+        <div id="pass9"></div>
+        <div id="pass10"></div>
+        <div id="pass11"></div>
+        <div id="pass12"></div>
+        <div id="pass13"></div>
+        <div id="pass14"></div>
+        <div id="pass15"></div>
+        <div id="pass16"></div>
+        <div id="pass17"></div>
+        <div id="pass18"></div>
+        <div id="pass19"></div>
+        <div id="pass20"></div>
+        <div id="pass21"></div>
+        <div id="pass22"></div>
+        <div id="pass23"></div>
+        <div id="pass24"></div>
+        <div id="pass25"></div>
+        <div id="pass26"></div>
+<!-- </div> -->
+        <div id="pass1pics"></div>
+
+</body>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        $("#pass1").draggable({
+            cursor: "grabbing"
+            });
+
+        $("#pass2").draggable({
+            cursor: "grabbing"
+            });
+
+        $("#pass3").draggable({
+            cursor: "grabbing"
+            });
+
+        $("#pass4").draggable({
+            cursor: "grabbing"
+            });
+            
+        $("#pass5").draggable({
+            cursor: "grabbing"
+            });
+
+        $("#pass6").draggable({
+            cursor: "grabbing"
+            });
+
+        $("#pass7").draggable({
+            cursor: "grabbing"
+            });
+
+        $("#pass8").draggable({
+            cursor: "grabbing"
+            });
+
+        $("#pass9").draggable({
+            cursor: "grabbing"
+            });
+
+        $("#pass10").draggable({
+            cursor: "grabbing"
+            });
+
+        $("#pass11").draggable({
+            cursor: "grabbing"
+            });
+
+        $("#pass12").draggable({
+            cursor: "grabbing"
+            });
+
+        $("#pass13").draggable({
+            cursor: "grabbing"
+            });
+
+        $("#pass14").draggable({
+            cursor: "grabbing"
+            });
+
+        $("#pass15").draggable({
+            cursor: "grabbing"
+            });
+
+        $("#pass16").draggable({
+            cursor: "grabbing"
+            });
+
+        $("#pass17").draggable({
+            cursor: "grabbing"
+            });
+
+        $("#pass18").draggable({
+            cursor: "grabbing"
+            });
+
+        $("#pass19").draggable({
+            cursor: "grabbing"
+            });
+
+        $("#pass20").draggable({
+            cursor: "grabbing"
+            });
+
+        $("#pass21").draggable({
+            cursor: "grabbing"
+            });
+
+        $("#pass22").draggable({
+            cursor: "grabbing"
+            });
+
+        $("#pass23").draggable({
+            cursor: "grabbing"
+            });
+
+        $("#pass24").draggable({
+            cursor: "grabbing"
+            });
+
+        $("#pass25").draggable({
+            cursor: "grabbing"
+            });
+
+        $("#pass26").draggable({
+            cursor: "grabbing"
+            });
+            
+    });
+</script>
+
 </html
