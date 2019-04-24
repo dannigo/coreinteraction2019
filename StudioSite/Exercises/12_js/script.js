@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
-    let width = $(document).width() - 100;
-    let height = $(document).height() - 100;
+    let width = $(document).width() - 250;
+    let height = $(document).height() - 250;
 
     let shapes = [$('.circle'), $('.square'), $('.triangle')]
 
