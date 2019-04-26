@@ -35,16 +35,18 @@ body {
 
 @media screen and (max-width: 378px) {
 	body {
-    margin-top: -50px;
-    font-size: 300px;
+    margin-top: -10px;
+    margin-left: -5px;
+    margin-right: 5px;
+    font-size: 340px;
     text-align: center;
-    line-height: 210px;
+    line-height: 230px;
     overflow: hidden;
   }
 
   .word1a {
     position: relative;
-    top: 0px;
+    top: -10px;
     left:50%;
     transform:translateX(-50%);
 
