@@ -15,38 +15,53 @@ body {
   width: 100%;
   height: 100%;
   color: #ffffff;
+  font-family: 'Grow_A';
 }
 
 .word1a {
-  font-family: 'Grow_A';
+  
 }
 
 .word2a {
-  font-family: 'Grow_A';
+  
+  z-index: 2;
 }
 
 .word3a {
-  font-family: 'Grow_A';
+  
 }
 
 .word4a {
-  font-family: 'Grow_A';
+  
+  z-index: 2;
 }
 
 @media screen and (max-width: 378px) {
 	body {
-    margin-top: -10px;
+    margin-top: -40px;
     margin-left: -5px;
     margin-right: 5px;
-    font-size: 340px;
+    font-size: 330px;
     text-align: center;
     line-height: 230px;
-    overflow: hidden;
   }
+
+  .container {
+      position: relative;
+  }
+
+  .containerFixed {
+    position: fixed;
+    top: -10px;
+    left:50%;
+    transform:translateX(-50%);
+    z-index: 2;
+    
+}
 
   .word1a {
     position: relative;
-    top: -10px;
+    /* top: -10px; */
     left:50%;
     transform:translateX(-50%);
 
@@ -54,8 +69,8 @@ body {
   }
 
   .word2a {
-    position: absolute;
-    top: 0px;
+    position: relative;
+    /* top: -10px; */
     left: 50%;
     transform:translateX(-50%);
 
@@ -72,8 +87,8 @@ body {
   }
 
   .word4a {
-    position: absolute;
-    top: 50%;
+    position: relative;
+    top: -10px;
     left: 50%;
     transform:translateX(-50%);
 
