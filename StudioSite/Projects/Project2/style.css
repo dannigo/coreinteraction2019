@@ -3,148 +3,150 @@
     src: url(Fonts/Grow_A.woff) format('woff');
 }
 
-body {
-  background: #111111;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-  transform: rotate(90deg);
-}
+@media screen and (max-width: 378px) {
 
-.word {
-  color: #ffffff;
-  font-family: 'Grow_A';
-  font-size: 330px;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%,-50%);
-}
-
-#self {
-  top: 370px;
-  animation: first 3s infinite ease alternate;
-}
-
-#loss {
-  top: 425px;
-  animation: second 3s infinite ease alternate;
-}
-
-#hope {
-  top: 405px;
-  margin-left: -20px;
-  animation: first 3s infinite ease alternate;
-}
-
-#lost {
-  top: 370px;
-  animation: second 3s infinite ease alternate;
-}
-
-#luck {
-  top: 380px;
-  animation: first 3s infinite ease alternate;
-}
-
-#here {
-  top: 405px;
-  margin-left: -50px;
-  animation: second 3s infinite ease alternate;
-}
-
-#haze {
-  top: 380px;
-  margin-left: -10px;
-  animation: first 3s infinite ease alternate;
-}
-
-#flux {
-  top: 420px;
-  margin-left: 20px;
-  animation: second 3s infinite ease alternate;
-}
-
-#even {
-  top: 415px;
-  margin-left: 10px;
-  animation: first 3s infinite ease alternate;
-}
-
-#solo {
-  top: 370px;
-  margin-left: 5px;
-  animation: second 3s infinite ease alternate;
-}
-
-#rose {
-  top: 370px;
-  animation: first 3s infinite ease alternate;
-}
-
-#echo {
-  top: 405px;
-  margin-left: 5px;
-  animation: second 3s infinite ease alternate;
-}
-
-#iris {
-  top: 390px;
-  animation: first 3s infinite ease alternate;
-}
-
-#best {
-  top: 390px;
-  animation: second 3s infinite ease alternate;
-}
-
-@keyframes first {
-
-  0% {
-    color: #474747;
-    opacity: 1;
-    text-shadow: 0px 0px 8px #727171;
-    z-index: 1;
+  body {
+    background: #111111;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    transform: rotate(90deg);
   }
 
-  50% {
-    color: #f1f1f1;
-    opacity: 10;
-    text-shadow: 0px 0px 8px #e2e2e2;
-    z-index: 2;
+  .word {
+    color: #ffffff;
+    font-family: 'Grow_A';
+    font-size: 330px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
   }
 
-  100% {
-    color: #474747;
-    opacity: 1;
-    text-shadow: 0px 0px 8px #727171;
-    z-index: 1;
+  #self {
+    top: 370px;
+    animation: first 3s infinite ease alternate;
   }
 
+  #loss {
+    top: 425px;
+    animation: second 3s infinite ease alternate;
+  }
+
+  #hope {
+    top: 405px;
+    margin-left: -20px;
+    animation: first 3s infinite ease alternate;
+  }
+
+  #lost {
+    top: 370px;
+    animation: second 3s infinite ease alternate;
+  }
+
+  #luck {
+    top: 380px;
+    animation: first 3s infinite ease alternate;
+  }
+
+  #here {
+    top: 405px;
+    margin-left: -50px;
+    animation: second 3s infinite ease alternate;
+  }
+
+  #haze {
+    top: 380px;
+    margin-left: -10px;
+    animation: first 3s infinite ease alternate;
+  }
+
+  #flux {
+    top: 420px;
+    margin-left: 20px;
+    animation: second 3s infinite ease alternate;
+  }
+
+  #even {
+    top: 415px;
+    margin-left: 10px;
+    animation: first 3s infinite ease alternate;
+  }
+
+  #solo {
+    top: 370px;
+    margin-left: 5px;
+    animation: second 3s infinite ease alternate;
+  }
+
+  #rose {
+    top: 370px;
+    animation: first 3s infinite ease alternate;
+  }
+
+  #echo {
+    top: 405px;
+    margin-left: 5px;
+    animation: second 3s infinite ease alternate;
+  }
+
+  #iris {
+    top: 390px;
+    animation: first 3s infinite ease alternate;
+  }
+
+  #best {
+    top: 390px;
+    animation: second 3s infinite ease alternate;
+  }
+
+  @keyframes first {
+
+    0% {
+      color: #474747;
+      opacity: 1;
+      text-shadow: 0px 0px 8px #727171;
+      z-index: 1;
+    }
+
+    50% {
+      color: #f1f1f1;
+      opacity: 10;
+      text-shadow: 0px 0px 8px #e2e2e2;
+      z-index: 2;
+    }
+
+    100% {
+      color: #474747;
+      opacity: 1;
+      text-shadow: 0px 0px 8px #727171;
+      z-index: 1;
+    }
+
+  }
+
+  @keyframes second {
+
+    0% {
+      color: #f1f1f1;
+      opacity: 10;
+      text-shadow: 0px 0px 8px #e2e2e2;
+      z-index: 2;
+    }
+
+    50% {
+      color: #474747;
+      opacity: 1;
+      text-shadow: 0px 0px 8px #727171;
+      z-index: 1;
+    }
+
+    100% {
+      color: #f1f1f1;
+      opacity: 10;
+      text-shadow: 0px 0px 8px #e2e2e2;
+      z-index: 2;
+    }
+
+  }
 }
-
-@keyframes second {
-
-  0% {
-    color: #f1f1f1;
-    opacity: 10;
-    text-shadow: 0px 0px 8px #e2e2e2;
-    z-index: 2;
-  }
-
-  50% {
-    color: #474747;
-    opacity: 1;
-    text-shadow: 0px 0px 8px #727171;
-    z-index: 1;
-  }
-
-  100% {
-    color: #f1f1f1;
-    opacity: 10;
-    text-shadow: 0px 0px 8px #e2e2e2;
-    z-index: 2;
-  }
-
-}
-
