@@ -12,6 +12,7 @@
     width: 100%;
     height: 100%;
     transform: rotate(90deg);
+    overflow: hidden;
   }
 
   .word {
@@ -24,23 +25,23 @@
   }
 
   #self {
-    /* top: 370px; */
+    top: -12px;
     animation: first 3s infinite ease alternate;
   }
 
   #loss {
-    /* top: 425px; */
+    top: 30px;
     animation: second 3s infinite ease alternate;
   }
 
   #hope {
-    /* top: 405px; */
+    top: 180px;
     margin-left: -20px;
     animation: first 3s infinite ease alternate;
   }
 
   #lost {
-    /* top: 370px; */
+    top: 150px;
     animation: second 3s infinite ease alternate;
   }
 
