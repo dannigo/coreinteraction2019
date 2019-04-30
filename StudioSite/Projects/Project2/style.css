@@ -24,79 +24,79 @@
   }
 
   #self {
-    top: 370px;
+    /* top: 370px; */
     animation: first 3s infinite ease alternate;
   }
 
   #loss {
-    top: 425px;
+    /* top: 425px; */
     animation: second 3s infinite ease alternate;
   }
 
   #hope {
-    top: 405px;
+    /* top: 405px; */
     margin-left: -20px;
     animation: first 3s infinite ease alternate;
   }
 
   #lost {
-    top: 370px;
+    /* top: 370px; */
     animation: second 3s infinite ease alternate;
   }
 
   #luck {
-    top: 380px;
+    /* top: 380px; */
     animation: first 3s infinite ease alternate;
   }
 
   #here {
-    top: 405px;
+    /* top: 405px; */
     margin-left: -50px;
     animation: second 3s infinite ease alternate;
   }
 
   #haze {
-    top: 380px;
+    /* top: 380px; */
     margin-left: -10px;
     animation: first 3s infinite ease alternate;
   }
 
   #flux {
-    top: 420px;
+    /* top: 420px; */
     margin-left: 20px;
     animation: second 3s infinite ease alternate;
   }
 
   #even {
-    top: 415px;
+    /* top: 415px; */
     margin-left: 10px;
     animation: first 3s infinite ease alternate;
   }
 
   #solo {
-    top: 370px;
+    /* top: 370px; */
     margin-left: 5px;
     animation: second 3s infinite ease alternate;
   }
 
   #rose {
-    top: 370px;
+    /* top: 370px; */
     animation: first 3s infinite ease alternate;
   }
 
   #echo {
-    top: 405px;
+    /* top: 405px; */
     margin-left: 5px;
     animation: second 3s infinite ease alternate;
   }
 
   #iris {
-    top: 390px;
+    /* top: 390px; */
     animation: first 3s infinite ease alternate;
   }
 
   #best {
-    top: 390px;
+    /* top: 390px; */
     animation: second 3s infinite ease alternate;
   }
 
