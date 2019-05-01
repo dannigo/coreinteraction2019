@@ -15,7 +15,7 @@ body {
 .word {
   /* color: #ffffff; */
   font-family: 'Grow_A';
-  font-size: 280px;
+  font-size: 250px;
   position: absolute;
   left: 50%;
   transform: translate(-50%,-50%);
