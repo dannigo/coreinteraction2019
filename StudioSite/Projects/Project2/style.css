@@ -3,6 +3,147 @@
     src: url(Fonts/Grow_A.woff) format('woff');
 }
 
+body {
+  background: #111111;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  transform: rotate(90deg);
+}
+
+.word {
+  /* color: #ffffff; */
+  font-family: 'Grow_A';
+  font-size: 330px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+#self {
+  top: -12px;
+  animation: first 2s infinite ease-in-out alternate;
+}
+
+#loss {
+  top: 30px;
+  animation: second 2s infinite ease-in-out alternate;
+}
+
+#hope {
+  top: 180px;
+  margin-left: -20px;
+  animation: first 2s infinite ease-in-out alternate;
+}
+
+#lost {
+  top: 150px;
+  animation: second 2s infinite ease-in-out alternate;
+}
+
+#luck {
+  animation: first 2s infinite ease-in-out alternate;
+}
+
+#here {
+  top: 35px;
+  margin-left: -50px;
+  animation: second 2s infinite ease-in-out alternate;
+}
+
+#haze {
+  top: 10px;
+  margin-left: -10px;
+  animation: first 2s infinite ease-in-out alternate;
+}
+
+#flux {
+  top: 30px;
+  animation: second 2s infinite ease-in-out alternate;
+}
+
+#even {
+  top: 30px;
+  margin-left: 10px;
+  animation: first 2s infinite ease-in-out alternate;
+}
+
+#solo {
+  top: -10px;
+  animation: second 2s infinite ease-in-out alternate;
+}
+
+#rose {
+  top: -40px;
+  margin-left: -10px;
+  animation: first 2s infinite ease-in-out alternate;
+}
+
+#echo {
+  margin-left: -5px;
+  animation: second 2s infinite ease-in-out alternate;
+}
+
+#iris {
+  top: -25px;
+  animation: first 2s infinite ease-in-out alternate;
+}
+
+#best {
+  top: -25px;
+  animation: second 2s infinite ease-in-out alternate;
+}
+
+@keyframes first {
+
+  0% {
+    color: #c5c5c5;
+    opacity: 10;
+    text-shadow: 0px 0px 8px #c5c5c5;
+    z-index: 1;
+  }
+
+  50% {
+    color: #f1f1f1;
+    opacity: 1;
+    text-shadow: 0px 0px 8px #f1f1f1;
+    z-index: 2;
+  }
+
+  100% {
+    color: #c5c5c5;
+    opacity: 10;
+    text-shadow: 0px 0px 8px #c5c5c5;
+    z-index: 1;
+  }
+
+}
+
+@keyframes second {
+
+  0% {
+    color: #f1f1f1;
+    opacity: 10;
+    text-shadow: 0px 0px 8px #f1f1f1;
+    z-index: 2;
+  }
+
+  50% {
+    color: #c5c5c5;
+    opacity: 1;
+    text-shadow: 0px 0px 8px #c5c5c5;
+    z-index: 1;
+  }
+
+  100% {
+    color: #f1f1f1;
+    opacity: 10;
+    text-shadow: 0px 0px 8px #f1f1f1;
+    z-index: 2;
+  }
+}
+
 @media screen and (max-width: 375px) {
 
   body {
@@ -12,7 +153,6 @@
     width: 100%;
     height: 100%;
     transform: rotate(90deg);
-    overflow: hidden;
   }
 
   .word {
@@ -26,79 +166,76 @@
 
   #self {
     top: -12px;
-    animation: first 3s infinite ease alternate;
+    animation: first 2s infinite ease-in-out alternate;
   }
 
   #loss {
     top: 30px;
-    animation: second 3s infinite ease alternate;
+    animation: second 2s infinite ease-in-out alternate;
   }
 
   #hope {
     top: 180px;
     margin-left: -20px;
-    animation: first 3s infinite ease alternate;
+    animation: first 2s infinite ease-in-out alternate;
   }
 
   #lost {
     top: 150px;
-    animation: second 3s infinite ease alternate;
+    animation: second 2s infinite ease-in-out alternate;
   }
 
   #luck {
-    /* top: 380px; */
-    animation: first 3s infinite ease alternate;
+    animation: first 2s infinite ease-in-out alternate;
   }
 
   #here {
-    /* top: 405px; */
+    top: 35px;
     margin-left: -50px;
-    animation: second 3s infinite ease alternate;
+    animation: second 2s infinite ease-in-out alternate;
   }
 
   #haze {
-    /* top: 380px; */
+    top: 10px;
     margin-left: -10px;
-    animation: first 3s infinite ease alternate;
+    animation: first 2s infinite ease-in-out alternate;
   }
 
   #flux {
-    /* top: 420px; */
-    margin-left: 20px;
-    animation: second 3s infinite ease alternate;
+    top: 30px;
+    animation: second 2s infinite ease-in-out alternate;
   }
 
   #even {
-    /* top: 415px; */
+    top: 30px;
     margin-left: 10px;
-    animation: first 3s infinite ease alternate;
+    animation: first 2s infinite ease-in-out alternate;
   }
 
   #solo {
-    /* top: 370px; */
-    margin-left: 5px;
-    animation: second 3s infinite ease alternate;
+    top: -10px;
+    animation: second 2s infinite ease-in-out alternate;
   }
 
   #rose {
-    /* top: 370px; */
-    animation: first 3s infinite ease alternate;
+    top: -40px;
+    margin-left: -10px;
+    animation: first 2s infinite ease-in-out alternate;
   }
 
   #echo {
-    /* top: 405px; */
-    margin-left: 5px;
-    animation: second 3s infinite ease alternate;
+    margin-left: -5px;
+    animation: second 2s infinite ease-in-out alternate;
   }
 
   #iris {
-    /* top: 390px; */
-    animation: first 3s infinite ease alternate;
+    top: -25px;
+    animation: first 2s infinite ease-in-out alternate;
   }
 
   #best {
-    /* top: 390px; */
-    animation: second 3s infinite ease alternate;
+    top: -25px;
+    animation: second 2s infinite ease-in-out alternate;
   }
 
   @keyframes first {
