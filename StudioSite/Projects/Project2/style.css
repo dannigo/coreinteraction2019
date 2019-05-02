@@ -4,33 +4,34 @@
 }
 
 body {
-  background: #111111;
+  background-color: #111111;
   margin: 0;
   padding: 0;
   width: 100%;
   height: 100%;
-  transform: rotate(90deg);
+  overflow: hidden;
 }
 
 .word {
-  /* color: #ffffff; */
+  color: #ffffff;
   font-family: 'Grow_A';
-  font-size: 330px;
+  font-size: 700px;
   position: absolute;
+  top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  transition: linear 1s;
+  transition: infinite linear 1s;
 }
 
-#example {
+/* #self {
   top: -12px;
-  /* animation: first 2s infinite ease-in-out alternate; */
+  animation: first 2s infinite ease-in-out alternate;
 }
 
 #loss {
   top: 30px;
-  /* animation: second 2s infinite ease-in-out alternate; */
-}
+  animation: second 2s infinite ease-in-out alternate;
+} */
 
 #hope {
   top: 180px;
@@ -43,9 +44,9 @@ body {
   /* animation: second 2s infinite ease-in-out alternate; */
 }
 
-#luck {
-  /* animation: first 2s infinite ease-in-out alternate; */
-}
+/* #luck {
+  animation: first 2s infinite ease-in-out alternate;
+} */
 
 #here {
   top: 35px;
@@ -157,12 +158,7 @@ body {
   }
 
   .word {
-    color: #ffffff;
-    font-family: 'Grow_A';
     font-size: 270px;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%,-50%);
   }
 
   #self {
@@ -239,53 +235,4 @@ body {
     /* animation: second 2s infinite ease-in-out alternate; */
   }
 
-  /* @keyframes first {
-
-    0% {
-      color: #474747;
-      opacity: 1;
-      text-shadow: 0px 0px 8px #727171;
-      z-index: 1;
-    }
-
-    50% {
-      color: #f1f1f1;
-      opacity: 10;
-      text-shadow: 0px 0px 8px #e2e2e2;
-      z-index: 2;
-    }
-
-    100% {
-      color: #474747;
-      opacity: 1;
-      text-shadow: 0px 0px 8px #727171;
-      z-index: 1;
-    }
-
   }
-
-  @keyframes second {
-
-    0% {
-      color: #f1f1f1;
-      opacity: 10;
-      text-shadow: 0px 0px 8px #e2e2e2;
-      z-index: 2;
-    }
-
-    50% {
-      color: #474747;
-      opacity: 1;
-      text-shadow: 0px 0px 8px #727171;
-      z-index: 1;
-    }
-
-    100% {
-      color: #f1f1f1;
-      opacity: 10;
-      text-shadow: 0px 0px 8px #e2e2e2;
-      z-index: 2;
-    }
-
-  } */
-}
