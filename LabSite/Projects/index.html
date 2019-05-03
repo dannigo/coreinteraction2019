@@ -2,286 +2,311 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <script src="jquery.js"></script>
-    <script src="jquery-ui.min.js"></script>
-    <script type="text/javascript" src="index.js"></script>
+	<link rel="stylesheet" href="style.css">
 
-    <title> LAB PROJECT </title>
+	<script src="jquery.js"></script>
+	<script src="jquery-ui.min.js"></script>
+	<script type="text/javascript" src="index.js"></script>
+
+	<title> LAB PROJECT </title>
 </head>
 
 <body>
+	<!-- PASSES -->
+	<div id="pass1" class="passDrag" data-id="2017Sept1">
+		<img id="passPic" src="Passes/2017Sept21.1.png">
+	</div>
+	
+	<div id="pass2" class="passDrag" data-id="2017Sept2">
+		<img id="passPic" src="Passes/2017Sept21.2.png">
+	</div>
 
-    <!-- PASSES -->
-    <!-- <div id="container"> -->
-        <div id="pass1" class="passDrag">
-            <img id="passPic" src="Passes/2017Sept21.1.png" width="950px" height="375px"></img>
-        </div>
-        <div id="pass2" class="passDrag">
-            <img id="passPic" src="Passes/2017Sept21.2.png" width="950px" height="375px"></img>
-        </div>
-        <div id="pass3" class="passDrag">
-            <img id="passPic" src="Passes/2017Sept24.1.png" width="950px" height="375px"></img>
-        </div>
-        <div id="pass4" class="passDrag">
-            <img id="passPic" src="Passes/2017Sept24.2.png" width="950px" height="375px"></img>
-        </div>
-        <div id="pass5" class="passDrag">
-            <img id="passPic" src="Passes/2017Nov26.1.png" width="950px" height="375px"></img>
-        </div>
-        <div id="pass6" class="passDrag">
-            <img id="passPic" src="Passes/2017Nov26.2.png" width="950px" height="375px"></img>
-        </div>
-        <div id="pass7" class="passDrag">
-            <img id="passPic" src="Passes/2017Nov26.3.png" width="950px" height="375px"></img>
-        </div>
-        <div id="pass8" class="passDrag">
-            <img id="passPic" src="Passes/2018Jan20.1.png" width="950px" height="375px"></img>
-        </div>
-        <div id="pass9" class="passDrag">
-            <img id="passPic" src="Passes/2018Jan20.2.png" width="950px" height="375px"></img>
-        </div>
-        <div id="pass10" class="passDrag">
-            <img id="passPic" src="Passes/2018Feb24.1.png" width="950px" height="375px"></img>
-        </div>
-        <div id="pass11" class="passDrag">
-            <img id="passPic" src="Passes/2018Feb27.1.png" width="950px" height="375px"></img>
-        </div>
-        <div id="pass12" class="passDrag">
-            <img id="passPic" src="Passes/2018Feb27.2.png" width="950px" height="375px"></img>
-        </div>
-        <div id="pass13" class="passDrag">
-            <img id="passPic" src="Passes/2018Mar17.1.png" width="950px" height="375px"></img>
-        </div>
-        <div id="pass14" class="passDrag">
-            <img id="passPic" src="Passes/2018Mar17.2.png" width="950px" height="375px"></img>
-        </div>
-        <div id="pass15" class="passDrag">
-            <img id="passPic" src="Passes/2018Mar25.png" width="950px" height="375px"></img>
-        </div>
-        <div id="pass16" class="passDrag">
-            <img id="passPic" src="Passes/2018Apr19.1.png" width="950px" height="375px"></img>
-        </div>
-        <div id="pass17" class="passDrag">
-            <img id="passPic" src="Passes/2018Apr19.2.png" width="950px" height="375px"></img>
-        </div>
-        <div id="pass18" class="passDrag">
-            <img id="passPic" src="Passes/2018Aug20.1.png" width="950px" height="375px"></img>
-        </div>
-        <div id="pass19" class="passDrag">
-            <img id="passPic" src="Passes/2018Aug20.2.png" width="950px" height="375px"></img>
-        </div>
-        <div id="pass20" class="passDrag">
-            <img id="passPic" src="Passes/2018Sept29.1.png" width="950px" height="375px"></img>
-        </div>
-        <div id="pass21" class="passDrag">
-            <img id="passPic" src="Passes/2018Sept30.1.png" width="950px" height="375px"></img>
-        </div>
-        <div id="pass22" class="passDrag">
-            <img id="passPic" src="Passes/2018Nov21.1.png" width="950px" height="375px"></img>
-        </div>
-        <div id="pass23" class="passDrag">
-            <img id="passPic" src="Passes/2018Nov21.2.png" width="950px" height="375px"></img>
-        </div>
-        <div id="pass24" class="passDrag">
-            <img id="passPic" src="Passes/2019Jan20.1.png" width="950px" height="375px"></img>
-        </div>
-        <div id="pass25" class="passDrag">
-            <img id="passPic" src="Passes/2019Mar15.1.png" width="950px" height="375px"></img>
-        </div>
-        <div id="pass26" class="passDrag">
-            <img id="passPic" src="Passes/2019Mar15.2.png" width="950px" height="375px"></img>
-        </div>
-<!-- </div> -->
+	<div id="pass3" class="passDrag" data-id="2017Sept3">
+		<img id="passPic" src="Passes/2017Sept24.1.png">
+	</div>
+
+	<div id="pass4" class="passDrag" data-id="2017Sept4">
+		<img id="passPic" src="Passes/2017Sept24.2.png">
+	</div>
+
+	<div id="pass5" class="passDrag" data-id="2017Nov1">
+		<img id="passPic" src="Passes/2017Nov26.1.png">
+	</div>
+
+	<div id="pass6" class="passDrag" data-id="2017Nov2">
+		<img id="passPic" src="Passes/2017Nov26.2.png">
+	</div>
+
+	<div id="pass7" class="passDrag" data-id="2017Nov3">
+		<img id="passPic" src="Passes/2017Nov26.3.png">
+	</div>
+
+	<div id="pass8" class="passDrag" data-id="2018Jan1">
+		<img id="passPic" src="Passes/2018Jan20.1.png">
+	</div>
+
+	<div id="pass9" class="passDrag" data-id="2018Jan2">
+		<img id="passPic" src="Passes/2018Jan20.2.png">
+	</div>
+
+	<div id="pass10" class="passDrag" data-id="2018Feb1">
+		<img id="passPic" src="Passes/2018Feb24.1.png">
+	</div>
+
+	<div id="pass11" class="passDrag" data-id="2018Feb2">
+		<img id="passPic" src="Passes/2018Feb27.1.png">
+	</div>
+
+	<div id="pass12" class="passDrag" data-id="2018Feb3">
+		<img id="passPic" src="Passes/2018Feb27.2.png">
+	</div>
+
+	<div id="pass13" class="passDrag" data-id="2018Mar1">
+		<img id="passPic" src="Passes/2018Mar17.1.png">
+	</div>
+
+	<div id="pass14" class="passDrag" data-id="2018Mar2">
+		<img id="passPic" src="Passes/2018Mar17.2.png">
+	</div>
+
+	<div id="pass15" class="passDrag" data-id="2018Mar3">
+		<img id="passPic" src="Passes/2018Mar25.png">
+	</div>
+
+	<div id="pass16" class="passDrag" data-id="2018Apr1">
+		<img id="passPic" src="Passes/2018Apr19.1.png">
+	</div>
+
+	<div id="pass17" class="passDrag" data-id="2018Apr2">
+		<img id="passPic" src="Passes/2018Apr19.1.png">
+	</div>
+
+	<div id="pass18" class="passDrag" data-id="2018Aug1">
+		<img id="passPic" src="Passes/2018Aug20.1.png">
+	</div>
+
+	<div id="pass19" class="passDrag" data-id="2018Aug2">
+		<img id="passPic" src="Passes/2018Aug20.2.png">
+	</div>
+
+	<div id="pass20" class="passDrag" data-id="2018Sept1">
+		<img id="passPic" src="Passes/2018Sept29.1.png">
+	</div>
+
+	<div id="pass21" class="passDrag" data-id="2018Sept2">
+		<img id="passPic" src="Passes/2018Sept30.1.png">
+	</div>
+
+	<div id="pass22" class="passDrag" data-id="2018Nov1">
+		<img id="passPic" src="Passes/2018Nov21.1.png">
+	</div>
+
+	<div id="pass23" class="passDrag" data-id="2018Nov2">
+		<img id="passPic" src="Passes/2018Nov21.2.png">
+	</div>
+
+	<div id="pass24" class="passDrag" data-id="2019Jan">
+		<img id="passPic" src="Passes/2019Jan20.1.png">
+	</div>
+
+	<div id="pass25" class="passDrag" data-id="2019Mar1">
+		<img id="passPic" src="Passes/2019Mar15.1.png">
+	</div>
+
+	<div id="pass26" class="passDrag" data-id="2019Mar2">
+		<img id="passPic" src="Passes/2019Mar15.2.png">
+	</div>
 
 
-    <!-- TRIP VIDS/PICS -->
-        <div id="tripVids" class="2017Sept1">
-            <div id="exitVids" class="2017Sept1">x</div>
-            <div id="VidPic">
-                <img src="Photos/2017Sept/2017SeptVids.gif" width="400px" height="500px">
-            </div>
-        </div>
+	<!-- TRIP GIFS -->
 
-        <div id="tripPhotos" class="2017Sept2">
-            <div id="exitPhotos"  class="2017Sept2">x</div>
-                <div id="VidPic">
-                    <img src="Photos/2017Sept/2017SeptPics1.gif" width="500px" height="400px"></img>
-                </div>
+	<div class="popup Vid" id="2017Sept1">
+		<div class="close">x</div>
+			<div class="gif">
+				<img src="Photos/2017Sept/2017SeptVids.gif" width="400px" height="500px">
+			</div>
+	</div>
 
-        <div id="tripPhotos" class="2017Sept3">
-            <div id="exitPhotos"  class="2017Sept3">x</div>
-                <div id="VidPic">
-                    <img src="Photos/2017Sept/2017SeptPics2.gif" width="500px" height="400px"></img>
-                </div>
-        </div>
+	<div class="popup Pic" id="2017Sept2">
+		<div class="close">x</div>
+			<div class="gif">
+				<img src="Photos/2017Sept/2017SeptPics1.gif" width="500px" height="400px">
+			</div>
+	</div>
 
-        <div id="tripPhotos" class="2017Sept4">
-                <div id="exitPhotos"  class="2017Sept4">x</div>
-                    <div id="VidPic">
-                        <img src="Photos/2017Sept/2017SeptPics3.gif" width="500px" height="400px"></img>
-                    </div>
-            </div>
+	<div class="popup Pic" id="2017Sept3">
+		<div class="close">x</div>
+			<div class="gif">
+				<img src="Photos/2017Sept/2017SeptPics2.gif" width="500px" height="400px">
+			</div>
+	</div>
 
-        <div id="tripVids" class="2017Nov1">
-                <div id="exitVids"  class="2017Nov1">x</div>
-                    <div id="VidPic">
-                        <img src="Photos/2017Nov/2017Nov1.gif" width="400px" height="500px"></img>
-                    </div>
-            </div>
+	<div class="popup Pic" id="2017Sept4">
+		<div class="close">x</div>
+			<div class="gif">
+				<img src="Photos/2017Sept/2017SeptPics3.gif" width="500px" height="400px">
+			</div>
+	</div>
 
-        <div id="tripPhotos" class="2017Nov2">
-                <div id="exitPhotos"  class="2017Nov2">x</div>
-                    <div id="VidPic">
-                        <img src="Photos/2017Nov/2017Nov2.gif" width="500px" height="400px"></img>
-                    </div>
-            </div>
+	<div class="popup Vid" id="2017Nov1">
+		<div class="close">x</div>
+			<div class="gif">
+				<img src="Photos/2017Nov/2017Nov1.gif" width="400px" height="500px">
+			</div>
+	</div>
 
-        <div id="tripPhotos" class="2017Nov3">
-                <div id="exitPhotos"  class="2017Nov3">x</div>
-                    <div id="VidPic">
-                        <img src="Photos/2017Nov/2017Nov3.gif" width="500px" height="400px"></img>
-                    </div>
-            </div>
-         
-        <div id="tripVids" class="2018Jan1">
-                <div id="exitVids"  class="2018Jan1">x</div>
-                    <div id="VidPic">
-                        <img src="Photos/2018Jan/2018Jan1.gif" width="400px" height="500px"></img>
-                    </div>
-            </div>
+	<div class="popup Pic" id="2017Nov2">
+		<div class="close">x</div>
+			<div class="gif">
+				<img src="Photos/2017Nov/2017Nov2.gif" width="500px" height="400px">
+			</div>
+	</div>
 
-        <div id="tripVids" class="2018Jan2">
-                <div id="exitVids"  class="2018Jan2">x</div>
-                    <div id="VidPic">
-                        <img src="Photos/2018Jan/2018Jan2.gif" width="400px" height="500px"></img>
-                    </div>
-            </div>
-        
-        <div id="tripVids" class="2018Feb1">
-                <div id="exitVids"  class="2018Feb1">x</div>
-                    <div id="VidPic">
-                        <img src="Photos/2018Feb/MTJ.JPG" width="400px" height="500px"></img>
-                    </div>
-            </div>
+	<div class="popup Pic" id="2017Nov3">
+		<div class="close">x</div>
+			<div class="gif">
+				<img src="Photos/2017Nov/2017Nov3.gif" width="500px" height="400px">
+			</div>
+	</div>
 
-        <div id="tripVids" class="2018Feb2">
-                <div id="exitVids"  class="2018Feb2">x</div>
-                    <div id="VidPic">
-                        <img src="Photos/2018Feb/2018Feb1.gif" width="400px" height="500px"></img>
-                    </div>
-            </div>
+	<div class="popup Vid" id="2018Jan1">
+		<div class="close">x</div>
+			<div class="gif">
+				<img src="Photos/2018Jan/2018Jan1.gif" width="400px" height="500px">
+			</div>
+	</div>
 
-        <div id="tripVids" class="2018Feb3">
-                <div id="exitVids"  class="2018Feb3">x</div>
-                    <div id="VidPic">
-                        <img src="Photos/2018Feb/NY.JPG" width="400px" height="500px"></img>
-                    </div>
-            </div>
+	<div class="popup Vid" id="2018Jan2">
+		<div class="close">x</div>
+			<div class="gif">
+				<img src="Photos/2018Jan/2018Jan2.gif" width="400px" height="500px">
+			</div>
+	</div>
 
-        <div id="tripPhotos" class="2018Mar1">
-                <div id="exitPhotos"  class="2018Mar1">x</div>
-                    <div id="VidPic">
-                        <img src="Photos/2018Mar/2018Mar1.gif" width="500px" height="400px"></img>
-                    </div>
-            </div>
+	<div class="popup Vid" id="2018Feb1">
+		<div class="close">x</div>
+			<div class="gif">
+				<img src="Photos/2018Feb/MTJ.JPG" width="400px" height="500px">
+			</div>
+	</div>
 
-        <div id="tripPhotos" class="2018Mar2">
-                <div id="exitPhotos"  class="2018Mar2">x</div>
-                    <div id="VidPic">
-                        <img src="Photos/2018Mar/2018Mar2.gif" width="500px" height="400px"></img>
-                    </div>
-            </div>
+	<div class="popup Vid" id="2018Feb2">
+		<div class="close">x</div>
+			<div class="gif">
+				<img src="Photos/2018Feb/2018Feb1.gif" width="400px" height="500px">
+			</div>
+	</div>
 
-        <div id="tripPhotos" class="2018Mar3">
-                <div id="exitPhotos"  class="2018Mar3">x</div>
-                    <div id="VidPic">
-                        <img src="Photos/2018Mar/2018Mar3.gif" width="500px" height="400px"></img>
-                    </div>
-            </div>
+	<div class="popup Vid" id="2018Feb3">
+		<div class="close">x</div>
+			<div class="gif">
+				<img src="Photos/2018Feb/NY.JPG" width="400px" height="500px">
+			</div>
+	</div>
 
-        <div id="tripPhotos" class="2018Apr1">
-                <div id="exitPhotos"  class="2018Apr1">x</div>
-                    <div id="VidPic">
-                        <img src="Photos/2018Apr/2018Apr1.gif" width="500px" height="400px"></img>
-                    </div>
-            </div>
+	<div class="popup Pic" id="2018Mar1">
+		<div class="close">x</div>
+			<div class="gif">
+				<img src="Photos/2018Mar/2018Mar1.gif" width="500px" height="400px">
+			</div>
+	</div>
 
-        <div id="tripVids" class="2018Apr2">
-                <div id="exitVids"  class="2018Apr2">x</div>
-                    <div id="VidPic">
-                        <img src="Photos/2018Apr/2018Apr2.gif" width="400px" height="500px"></img>
-                    </div>
-            </div>
+	<div class="popup Pic" id="2018Mar2">
+		<div class="close">x</div>
+			<div class="gif">
+				<img src="Photos/2018Mar/2018Mar2.gif" width="500px" height="400px">
+			</div>
+	</div>
 
-        <div id="tripVids" class="2018Aug1">
-                <div id="exitVids"  class="2018Aug1">x</div>
-                    <div id="VidPic">
-                        <img src="Photos/2018Aug/2018Aug1.gif" width="400px" height="500px"></img>
-                    </div>
-            </div>       
-            
-        <div id="tripVids" class="2018Aug2">
-                <div id="exitVids"  class="2018Aug2">x</div>
-                    <div id="VidPic">
-                        <img src="Photos/2018Aug/2018Aug2.gif" width="400px" height="500px"></img>
-                    </div>
-            </div> 
+	<div class="popup Pic" id="2018Mar3">
+		<div class="close">x</div>
+			<div class="gif">
+				<img src="Photos/2018Mar/2018Mar3.gif" width="500px" height="400px">
+			</div>
+	</div>
 
-        <div id="tripVids" class="2018Sept1">
-                <div id="exitVids"  class="2018Sept1">x</div>
-                    <div id="VidPic">
-                        <img src="Photos/2018Sept/2018Sept1.gif" width="400px" height="500px"></img>
-                    </div>
-            </div>
+	<div class="popup Pic" id="2018Apr1">
+		<div class="close">x</div>
+			<div class="gif">
+				<img src="Photos/2018Apr/2018Apr1.gif" width="500px" height="400px">
+			</div>
+	</div>
 
-        <div id="tripVids" class="2018Sept2">
-                <div id="exitVids"  class="2018Sept2">x</div>
-                    <div id="VidPic">
-                        <img src="Photos/2018Sept/2018Sept2.gif" width="400px" height="500px"></img>
-                    </div>
-            </div> 
+	<div class="popup Vid" id="2018Apr2">
+		<div class="close">x</div>
+			<div class="gif">
+				<img src="Photos/2018Apr/2018Apr2.gif" width="400px" height="500px">
+			</div>
+	</div>
 
-        <div id="tripVids" class="2018Nov1">
-                <div id="exitVids"  class="2018Nov1">x</div>
-                    <div id="VidPic">
-                        <img src="Photos/2018Nov/2018Nov1.gif" width="400px" height="500px"></img>
-                    </div>
-            </div> 
+	<div class="popup Vid" id="2018Aug1">
+		<div class="close">x</div>
+			<div class="gif">
+				<img src="Photos/2018Aug/2018Aug1.gif" width="400px" height="500px">
+			</div>
+	</div>
 
-        <div id="tripPhotos" class="2018Nov2">
-                <div id="exitPhotos"  class="2018Nov2">x</div>
-                    <div id="VidPic">
-                        <img src="Photos/2018Nov/2018Nov2.gif" width="500px" height="400px"></img>
-                    </div>
-            </div> 
-        
-        <div id="tripPhotos" class="2019Jan">
-                <div id="exitPhotos"  class="2019Jan">x</div>
-                    <div id="VidPic">
-                        <img src="Photos/2019Jan/2019Jan.gif" width="500px" height="400px"></img>
-                    </div>
-            </div> 
+	<div class="popup Vid" id="2018Aug2">
+		<div class="close">x</div>
+			<div class="gif">
+				<img src="Photos/2018Aug/2018Aug2.gif" width="400px" height="500px">
+			</div>
+	</div>
 
-        <div id="tripPhotos" class="2019Mar1">
-                <div id="exitPhotos"  class="2019Mar1">x</div>
-                    <div id="VidPic">
-                        <img src="Photos/2019Mar/2019Mar1.gif" width="500px" height="400px"></img>
-                    </div>
-            </div> 
+	<div class="popup Vid" id="2018Sept1">
+		<div class="close">x</div>
+			<div class="gif">
+				<img src="Photos/2018Sept/2018Sept1.gif" width="400px" height="500px">
+			</div>
+	</div>
 
-        <div id="tripPhotos" class="2019Mar2">
-                <div id="exitPhotos"  class="2019Mar2">x</div>
-                    <div id="VidPic">
-                        <img src="Photos/2019Mar/2019Mar2.gif" width="500px" height="400px"></img>
-                    </div>
-            </div> 
+	<div class="popup Vid" id="2018Sept2">
+		<div class="close">x</div>
+			<div class="gif">
+				<img src="Photos/2018Sept/2018Sept2.gif" width="400px" height="500px">
+			</div>
+	</div>
 
-            
+	<div class="popup Vid" id="2018Nov1">
+		<div class="close">x</div>
+			<div class="gif">
+				<img src="Photos/2018Nov/2018Nov1.gif" width="400px" height="500px">
+			</div>
+	</div>
+
+	<div class="popup Pic" id="2018Nov2">
+		<div class="close">x</div>
+			<div class="gif">
+				<img src="Photos/2018Nov/2018Nov2.gif" width="500px" height="400px">
+			</div>
+	</div>
+
+	<div class="popup Pic" id="2019Jan">
+		<div class="close">x</div>
+			<div class="gif">
+				<img src="Photos/2019Jan/2019Jan.gif" width="500px" height="400px">
+			</div>
+	</div>
+
+	<div class="popup Pic" id="2019Mar1">
+		<div class="close">x</div>
+			<div class="gif">
+				<img src="Photos/2019Mar/2019Mar1.gif" width="500px" height="400px">
+			</div>
+	</div>
+
+	<div class="popup Pic" id="2019Mar2">
+		<div class="close">x</div>
+			<div class="gif">
+				<img src="Photos/2019Mar/2019Mar2.gif" width="500px" height="400px">
+			</div>
+	</div>
+
 
 </body>
+
 </html

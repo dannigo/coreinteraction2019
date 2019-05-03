@@ -1,335 +1,258 @@
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    cursor: grab;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	cursor: grab;
 }
 
-/* #container {
-    background-color: white;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-} */
+.passDrag{
+	position: absolute;
+	width: 950px;
+	height: 375px;
+}
 
-#passPic {
-    position: absolute;
+.front {
+	z-index: 1000;
 }
 
 #pass1 {
-    position: absolute;
-    top: 10px;
-    left: -80px;
-    transform: rotate(-15deg);
-    z-index: 3;
+	top: 10px;
+	left: -80px;
+	transform: rotate(-15deg);
+	z-index: 3;
 }
 
 #pass2 {
-    position: absolute;
-    top: 300px;
-    left: 500px;
-    transform: rotate(25deg);
-    z-index: 2;
+	top: 350px;
+	left: 400px;
+	transform: rotate(30deg);
+	z-index: 4;
 }
 
 #pass3 {
-    position: absolute;
-    top: 600px;
-    left: 100px;
-    transform: rotate(-30deg);
-    z-index: 2;
+	top: 700px;
+	left: -200px;
+	transform: rotate(-30deg);
+	z-index: 2;
 }
 
 #pass4 {
-    position: absolute;
-    top: 100px;
-    left: 100px;
-    transform: rotate(-10deg);
-    z-index: 1;
+	top: 100px;
+	left: 100px;
+	transform: rotate(-10deg);
+	z-index: 1;
 }
 
 #pass5 {
-    position: absolute;
-    top: -100px;
-    left: 0px;
-    transform: rotate(25deg);
-    z-index: 2;
+	top: -100px;
+	left: 0px;
+	transform: rotate(25deg);
+	z-index: 2;
 }
 
 #pass6 {
-    position: absolute;
-    top: 500px;
-    left: -300px;
-    transform: rotate(12deg);
-    z-index: 1;
+	top: 450px;
+	left: -300px;
+	transform: rotate(12deg);
+	z-index: 1;
 }
 
 #pass7 {
-    position: absolute;
-    top: -700px;
-    left: 1300px;
-    transform: rotate(60deg);
-    z-index: 2;
+	top: -70px;
+	left: 1200px;
+	transform: rotate(60deg);
+	z-index: 2;
 }
 
 #pass8 {
-    position: absolute;
-    top: 160px;
-    left: 950px;
-    transform: rotate(-20deg);
-    z-index: 1;
+	top: 160px;
+	left: 950px;
+	transform: rotate(-20deg);
+	z-index: 1;
 }
 
 
 #pass9 {
-    position: absolute;
-    top: 300px;
-    left: 400px;
-    transform: rotate(5deg);
-    z-index: 4;
+	top: 300px;
+	left: 300px;
+	transform: rotate(5deg);
+	z-index: 4;
 }
 
 #pass10 {
-    position: absolute;
-    top: -150px;
-    left: 800px;
-    transform: rotate(15deg);
-    z-index: -1;
+	top: -150px;
+	left: 800px;
+	transform: rotate(15deg);
+	z-index: -1;
 }
 
 #pass11 {
-    position: absolute;
-    top: 750px;
-    left: 360px;
-    transform: rotate(-20deg);
-    z-index: 4;
+	top: 750px;
+	left: 360px;
+	transform: rotate(-30deg);
+	z-index: 6;
 }
 
 #pass12 {
-    position: absolute;
-    top: 1000px;
-    left: 900px;
-    transform: rotate(650deg);
-    z-index: 1;
+	top: 1000px;
+	left: 900px;
+	transform: rotate(650deg);
+	z-index: 1;
 }
 
 #pass13 {
-    position: absolute;
-    top: 500px;
-    left: 1050px;
-    transform: rotate(190deg);
-    z-index: 1;
+	top: 200px;
+	left: 950px;
+	transform: rotate(190deg);
+	z-index: 1;
 }
 
 #pass14 {
-    position: absolute;
-    top: 1150px;
-    left: 430px;
-    transform: rotate(230deg);
-    z-index: 3;
+	top: 1100px;
+	left: 530px;
+	transform: rotate(230deg);
+	z-index: 6;
 }
 
 #pass15 {
-    position: absolute;
-    top: 700px;
-    left: 300px;
-    transform: rotate(-35deg);
-    z-index: 3;
+	top: 700px;
+	left: 150px;
+	transform: rotate(-45deg);
+	z-index: 3;
 }
 
 #pass16 {
-    position: absolute;
-    top: 200px;
-    left: 750px;
-    transform: rotate(200deg);
-    z-index: 5;
+	top: 200px;
+	left: 550px;
+	transform: rotate(200deg);
+	z-index: 3;
 }
 
 #pass17 {
-    position: absolute;
-    top: 800px;
-    left: 200px;
-    transform: rotate(-5deg);
-    z-index: 4;
+	top: 600px;
+	left: 400px;
+	transform: rotate(-10deg);
+	z-index: 4;
 }
 
 #pass18 {
-    position: absolute;
-    top: 750px;
-    left: 1250px;
-    transform: rotate(15deg);
-    z-index: 6;
+	top: 550px;
+	left: 1250px;
+	transform: rotate(15deg);
+	z-index: 4;
 }
 
 #pass19 {
-    position: absolute;
-    top: 700px;
-    left: -800px;
-    transform: rotate(-20deg);
-    z-index: 4;
+	top: 750px;
+	left: -750px;
+	transform: rotate(-20deg);
+	z-index: 4;
 }
 
 #pass20 {
-    position: absolute;
-    top: 650px;
-    left: 1200px;
-    transform: rotate(-35deg);
-    z-index: 4;
+	top: 200px;
+	left: 1200px;
+	transform: rotate(-35deg);
+	z-index: 4;
 }
 
 #pass21 {
-    position: absolute;
-    top: -300px;
-    left: -800px;
-    transform: rotate(15deg);
-    z-index: 4;
+	top: -300px;
+	left: -700px;
+	transform: rotate(15deg);
+	z-index: 4;
 }
 
 #pass22 {
-    position: absolute;
-    top: -50px;
-    left: 1580px;
-    transform: rotate(10deg);
-    z-index: 7;
+	top: -50px;
+	left: 1280px;
+	transform: rotate(10deg);
+	z-index: -1;
 }
 
 #pass23 {
-    position: absolute;
-    top: -680px;
-    left: 300px;
-    transform: rotate(60deg);
-    z-index: 4;
+	top: -480px;
+	left: 300px;
+	transform: rotate(60deg);
+	z-index: 4;
 }
 
 #pass24 {
-    position: absolute;
-    top: 160px;
-    left: 1700px;
-    transform: rotate(70deg);
-    z-index: 5;
+	top: 160px;
+	left: 1450px;
+	transform: rotate(70deg);
+	z-index: 5;
 }
 
 #pass25 {
-    position: absolute;
-    top: 1300px;
-    left: 300px;
-    transform: rotate(-40deg);
-    z-index: 7;
+	top: 1000px;
+	left: 500px;
+	transform: rotate(-40deg);
+	z-index: 7;
 }
 
 #pass26 {
-    position: absolute;
-    top: 550px;
-    left: 1500px;
-    transform: rotate(3deg);
-    z-index: 10;
+	top: 550px;
+	left: 1500px;
+	transform: rotate(3deg);
+	z-index: 10;
 }
 
-#exitVids {
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    background-color: #c4c4c6;
-    top: 15px;
-    right: 15px;
-    color: white;
-    text-align: center;
-    font-size: 15px;
-    padding-top: 2px;
-    font-family: 'Nunito', sans-serif;
+.close {
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background-color: #c4c4c6;
+	top: 15px;
+	right: 15px;
+	color: white;
+	text-align: center;
+	font-size: 15px;
+	padding-top: 2px;
+	font-family: 'Nunito', sans-serif;
 }
 
-#exitPhotos {
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    background-color: #c4c4c6;
-    top: 15px;
-    right: 15px;
-    color: white;
-    text-align: center;
-    font-size: 15px;
-    padding-top: 2px;
-    font-family: 'Nunito', sans-serif;
+.popup {
+	position: fixed;
+	background-color: white;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	z-index: 1000000000;
+	box-shadow: 2px 2px 3px #c4c4c6;
+	visibility: hidden;
 }
 
-#prev {
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    background-color: #c4c4c6;
-    top: 50%;
-    left: 13px;
-    color: white;
-    text-align: center;
-    font-size: 15px;
-    padding-top: 2px;
-    font-family: 'Nunito', sans-serif;
+.popup.open {
+	visibility: visible;
 }
 
-#next {
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    background-color: #c4c4c6;
-    top: 50%;
-    right: 13px;
-    color: white;
-    text-align: center;
-    font-size: 15px;
-    padding-top: 2px;
-    font-family: 'Nunito', sans-serif;
+.popup:hover {
+	cursor: pointer;
 }
 
-#tripVids {
-    position: absolute;
-    background-color: white;
-    width: 500px;
-    height: 600px;
-    top: 50%;
-    left: 50%;
-    transform:translate(-50%,-50%);
-    z-index: 10000;
-    visibility: hidden;
-    box-shadow: 2px 2px 3px #c4c4c6;
+.popup.Vid {
+	width: 500px;
+	height: 600px;
 }
 
-#tripVids:hover {
-    cursor: pointer;
+.popup.Pic {
+	width: 600px;
+	height: 500px;
 }
 
-#tripPhotos {
-    position: absolute;
-    background-color: white;
-    width: 600px;
-    height: 500px;
-    top: 50%;
-    left: 50%;
-    transform:translate(-50%,-50%);
-    z-index: 10000;
-    visibility: hidden;
-    box-shadow: 2px 2px 3px #c4c4c6;
-}
-
-#tripPhotos:hover {
-    cursor: pointer;
-}
-
-#VidPic {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform:translate(-50%,-50%);
-    z-index: 10000;
-    overflow: hidden;
+.gif {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	z-index: 10000;
+	overflow: hidden;
 }
