@@ -133,13 +133,13 @@ body {
     padding: 0;
     width: 100%;
     height: 100%;
-    overflow-x: hidden;
+    overflow: hidden;
   }
 
   .word {
     font-size: 270px;
     transform: rotate(90deg);
-    top: 225px;
+    top: 215px;
     left: -150px;
     letter-spacing: -1px;
   }
