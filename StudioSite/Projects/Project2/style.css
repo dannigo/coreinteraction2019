@@ -21,81 +21,73 @@ body {
   left: 50%;
   transform: translate(-50%,-50%);
   transition: infinite linear;
+  mix-blend-mode: normal;
+  visibility: visible;
+  letter-spacing: 1px;
+  user-select: none;
 }
 
-/* #self {
-  top: -12px;
-  animation: first 2s infinite ease-in-out alternate;
+.buttonBlend {
+  background-color: #111111;
+  box-shadow: 0px 0px 10px #a3a2a2;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  bottom: 125px;
+  left: 50%;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 5;
+}
+
+.buttonCMYK {
+  background-color: magenta;
+  box-shadow: 0px 0px 10px yellow;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  bottom: 125px;
+  left: 50%;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 4;
+}
+
+.buttonCMYKBlend {
+  background-color: cyan;
+  box-shadow: 0px 0px 10px magenta;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  bottom: 125px;
+  left: 50%;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.buttonNormal {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px #a3a2a2;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  bottom: 125px;
+  left: 50%;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 2;
+}
+
+
+/* 
+#self {
+  color: cyan;
 }
 
 #loss {
-  top: 30px;
-  animation: second 2s infinite ease-in-out alternate;
+  color: yellow;
 } */
-
-#hope {
-  top: 180px;
-  margin-left: -20px;
-  /* animation: first 2s infinite ease-in-out alternate; */
-}
-
-#lost {
-  top: 150px;
-  /* animation: second 2s infinite ease-in-out alternate; */
-}
-
-/* #luck {
-  animation: first 2s infinite ease-in-out alternate;
-} */
-
-#here {
-  top: 35px;
-  margin-left: -50px;
-  /* animation: second 2s infinite ease-in-out alternate; */
-}
-
-#haze {
-  top: 10px;
-  margin-left: -10px;
-  /* animation: first 2s infinite ease-in-out alternate; */
-}
-
-#flux {
-  top: 30px;
-  /* animation: second 2s infinite ease-in-out alternate; */
-}
-
-#even {
-  top: 30px;
-  margin-left: 10px;
-  /* animation: first 2s infinite ease-in-out alternate; */
-}
-
-#solo {
-  top: -10px;
-  /* animation: second 2s infinite ease-in-out alternate; */
-}
-
-#rose {
-  top: -40px;
-  margin-left: -10px;
-  /* animation: first 2s infinite ease-in-out alternate; */
-}
-
-#echo {
-  margin-left: -5px;
-  /* animation: second 2s infinite ease-in-out alternate; */
-}
-
-#iris {
-  top: -25px;
-  /* animation: first 2s infinite ease-in-out alternate; */
-}
-
-#best {
-  top: -25px;
-  /* animation: second 2s infinite ease-in-out alternate; */
-}
 
 /* @keyframes first {
 
@@ -154,85 +146,43 @@ body {
     padding: 0;
     width: 100%;
     height: 100%;
-    transform: rotate(90deg);
+    overflow-x: hidden;
   }
 
   .word {
     font-size: 270px;
+    transform: rotate(90deg);
+    margin-left: -330px;
+    margin-top: -150px;
+    letter-spacing: -1px;
   }
 
-  #self {
-    top: -12px;
-    /* animation: first 2s infinite ease-in-out alternate; */
+  .buttonBlend {
+    margin-left: 130px;
+    top: 50%;
+    width: 25px;
+    height: 25px;
   }
 
-  #loss {
-    top: 30px;
-    /* animation: second 2s infinite ease-in-out alternate; */
+  .buttonCMYK {
+    margin-left: 130px;
+    top: 50%;
+    width: 25px;
+    height: 25px;
   }
 
-  #hope {
-    top: 30px;
-    margin-left: -20px;
-    /* animation: first 2s infinite ease-in-out alternate; */
+  .buttonCMYKBlend {
+    margin-left: 130px;
+    top: 50%;
+    width: 25px;
+    height: 25px;
   }
 
-  #lost {
-    top: 0px;
-    /* animation: second 2s infinite ease-in-out alternate; */
-  }
-
-  /* #luck {
-    animation: first 2s infinite ease-in-out alternate;
-  } */
-
-  #here {
-    top: 35px;
-    margin-left: -50px;
-    /* animation: second 2s infinite ease-in-out alternate; */
-  }
-
-  #haze {
-    top: 10px;
-    margin-left: -10px;
-    /* animation: first 2s infinite ease-in-out alternate; */
-  }
-
-  #flux {
-    top: 30px;
-    /* animation: second 2s infinite ease-in-out alternate; */
-  }
-
-  #even {
-    top: 30px;
-    margin-left: 10px;
-    /* animation: first 2s infinite ease-in-out alternate; */
-  }
-
-  #solo {
-    top: -10px;
-    /* animation: second 2s infinite ease-in-out alternate; */
-  }
-
-  #rose {
-    top: -40px;
-    margin-left: -10px;
-    /* animation: first 2s infinite ease-in-out alternate; */
-  }
-
-  #echo {
-    margin-left: -5px;
-    /* animation: second 2s infinite ease-in-out alternate; */
-  }
-
-  #iris {
-    top: -25px;
-    /* animation: first 2s infinite ease-in-out alternate; */
-  }
-
-  #best {
-    top: -25px;
-    /* animation: second 2s infinite ease-in-out alternate; */
+  .buttonNormal {
+    margin-left: 130px;
+    top: 50%;
+    width: 25px;
+    height: 25px;
   }
 
   }
