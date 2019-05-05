@@ -24,184 +24,262 @@ body {
 #pass1 {
 	top: -110px;
 	left: -45px;
-	transform: rotate(-15deg);
 	z-index: 3;
+}
+
+#pass1 img {
+	transform: rotate(-15deg);
 }
 
 #pass2 {
 	top: 500px;
 	left: 400px;
-	transform: rotate(25deg);
 	z-index: 2;
+}
+
+#pass2 img {
+	transform: rotate(25deg);
 }
 
 #pass3 {
 	top: 345px;
 	left: 150px;
-	transform: rotate(-30deg);
 	z-index: 2;
+}
+
+#pass3 img {
+	transform: rotate(-30deg);
 }
 
 #pass4 {
 	top: 20px;
 	left: 125px;
-	transform: rotate(-10deg);
 	z-index: 1;
+}
+
+#pass4 img {
+	transform: rotate(-10deg);
 }
 
 #pass5 {
 	top: 95px;
 	left: -130px;
-	transform: rotate(25deg);
 	z-index: 2;
+}
+
+#pass5 img {
+	transform: rotate(25deg);
 }
 
 #pass6 {
 	top: 600px;
 	left: -350px;
-	transform: rotate(12deg);
 	z-index: 1;
+}
+
+#pass6 img {
+	transform: rotate(12deg);
 }
 
 #pass7 {
 	top: -400px;
 	left: 880px;
-	transform: rotate(60deg);
 	z-index: 2;
+}
+
+#pass7 img {
+	transform: rotate(60deg);
 }
 
 #pass8 {
 	top: -10px;
 	left: 1100px;
-	transform: rotate(-20deg);
 	z-index: 1;
+}
+
+#pass8 img {
+	transform: rotate(-20deg);
 }
 
 
 #pass9 {
 	top: 350px;
 	left: 400px;
-	transform: rotate(5deg);
 	z-index: 4;
+}
+
+#pass9 img {
+	transform: rotate(5deg);
 }
 
 #pass10 {
 	top: -20px;
 	left: 780px;
-	transform: rotate(15deg);
 	z-index: -1;
 }
+
+ #pass10 img {
+	transform: rotate(15deg);
+ }
 
 #pass11 {
 	top: 600px;
 	left: 375px;
-	transform: rotate(-20deg);
 	z-index: 4;
+}
+
+#pass11 img {
+	transform: rotate(-20deg);
 }
 
 #pass12 {
 	top: 400px;
 	left: 785px;
-	transform: rotate(650deg);
 	z-index: 1;
+}
+
+#pass12 img {
+	transform: rotate(650deg);
 }
 
 #pass13 {
 	top: 70px;
 	left: 140px;
-	transform: rotate(190deg);
 	z-index: 1;
+}
+
+#pass13 img {
+	transform: rotate(190deg);
 }
 
 #pass14 {
 	top: 480px;
 	left: -190px;
-	transform: rotate(230deg);
 	z-index: 3;
+}
+
+#pass14 img {
+	transform: rotate(230deg);
 }
 
 #pass15 {
 	top: 380px;
 	left: 280px;
-	transform: rotate(-35deg);
 	z-index: 3;
+}
+
+#pass15 img {
+	transform: rotate(-35deg);
 }
 
 #pass16 {
 	top: -300px;
 	left: -150px;
-	transform: rotate(200deg);
 	z-index: 5;
+}
+
+#pass16 img {
+	transform: rotate(200deg);
 }
 
 #pass17 {
 	top: 750px;
 	left: 250px;
-	transform: rotate(-5deg);
 	z-index: 4;
+}
+
+#pass17 img {
+	transform: rotate(-5deg);
 }
 
 #pass18 {
 	top: 900px;
 	left: 1150px;
-	transform: rotate(15deg);
 	z-index: 6;
+}
+
+#pass18 img {
+	transform: rotate(15deg);
 }
 
 #pass19 {
 	top: 480px;
 	left: -750px;
-	transform: rotate(-20deg);
 	z-index: 4;
+}
+
+#pass19 img {
+	transform: rotate(-20deg);
 }
 
 #pass20 {
 	top: 400px;
 	left: 1200px;
-	transform: rotate(-35deg);
 	z-index: 4;
+}
+
+#pass20 img {
+	transform: rotate(-35deg);
 }
 
 #pass21 {
 	top: -200px;
 	left: -850px;
-	transform: rotate(15deg);
 	z-index: 4;
+}
+
+#pass21 img {
+	transform: rotate(15deg);
 }
 
 #pass22 {
 	top: 40px;
 	left: 1520px;
-	transform: rotate(10deg);
 	z-index: 7;
+}
+
+#pass22 img {
+	transform: rotate(10deg);
 }
 
 #pass23 {
 	top: -350px;
 	left: -90px;
-	transform: rotate(60deg);
 	z-index: 4;
+}
+
+#pass23 img {
+	transform: rotate(60deg);
 }
 
 #pass24 {
 	top: 490px;
 	left: 1180px;
-	transform: rotate(70deg);
 	z-index: 5;
+}
+
+#pass24 img {
+	transform: rotate(70deg);
 }
 
 #pass25 {
 	top: 970px;
 	left: 300px;
-	transform: rotate(-40deg);
 	z-index: 7;
+}
+
+#pass25 img {
+	transform: rotate(-40deg);
 }
 
 #pass26 {
 	top: 580px;
 	left: 1500px;
-	transform: rotate(3deg);
 	z-index: 10;
+}
+
+#pass26 img {
+	transform: rotate(3deg);
 }
 
 .close {
