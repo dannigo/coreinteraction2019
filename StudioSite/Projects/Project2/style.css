@@ -97,14 +97,13 @@ body {
     padding: 0;
     width: 100%;
     height: 100%;
-    /* overflow: hidden; */
   }
 
   .word {
     font-size: 230px;
     transform: rotate(90deg);
     top: 200px;
-    left: -150px;
+    left: -130px;
     letter-spacing: -1px;
     position: fixed;
   }
