@@ -133,15 +133,16 @@ body {
     padding: 0;
     width: 100%;
     height: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
 
   .word {
     font-size: 270px;
     transform: rotate(90deg);
-    top: 215px;
+    top: 225px;
     left: -150px;
     letter-spacing: -1px;
+    position: fixed;
   }
 
   .buttonBlend {
@@ -165,7 +166,8 @@ body {
   }
 
   .allWords {
-    visibility: hidden;
+    font-size: 16px;
+    line-height: 20px;
   }
 
   }
