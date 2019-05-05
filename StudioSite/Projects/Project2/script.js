@@ -4,7 +4,6 @@ $(document).ready(function(){
 
     let wordsTwo = ['LOSS', 'LOST', 'HERE', 'FLUX', 'SOLO', 'ECHO', 'BEST', 'DAZE', 'LIES', 'VICE', 'BURY', 'CAST', 'FUSE', 'HUSH', 'EMIT', 'AXIS', 'MESS', 'FURY', 'LIKE', 'TYPE', 'FORE', 'APEX', 'BASE', 'DENY', 'YORE'];
 
-
     function randomWordsOne() {
         let randomOne = wordsOne[Math.floor(Math.random()*wordsOne.length)]
 
@@ -19,9 +18,9 @@ $(document).ready(function(){
         $("#loss").text(randomTwo);
     }
     
-    // setTimeout(function(){
+    setTimeout(function(){
         setInterval(randomWordsTwo, 1025);
-    // },1025)
+    },1025)
 
     $('.buttonBlend').click(function(){
         let exclusionBlend = 'exclusion';

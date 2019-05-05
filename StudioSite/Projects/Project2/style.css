@@ -79,6 +79,17 @@ body {
   z-index: 2;
 }
 
+.allWords {
+  color: #ffffff;
+  font-family: 'Grow_A';
+  font-size: 24px;
+  text-align: justify;
+  line-height: 26px;
+  z-index: -1;
+
+  animation-name: flicker;
+  animation: 5s infinite linear ease-in-out;
+}
 
 /* 
 #self {
@@ -89,54 +100,30 @@ body {
   color: yellow;
 } */
 
-/* @keyframes first {
+@keyframes flicker {
 
   0% {
-    color: #c5c5c5;
+    color: #111111;
     opacity: 10;
     text-shadow: 0px 0px 8px #c5c5c5;
     z-index: 1;
   }
 
   50% {
-    color: #f1f1f1;
+    color: #111111;
     opacity: 1;
     text-shadow: 0px 0px 8px #f1f1f1;
     z-index: 2;
   }
 
   100% {
-    color: #c5c5c5;
+    color: #111111;
     opacity: 10;
     text-shadow: 0px 0px 8px #c5c5c5;
     z-index: 1;
   }
 
 }
-
-@keyframes second {
-
-  0% {
-    color: #f1f1f1;
-    opacity: 10;
-    text-shadow: 0px 0px 8px #f1f1f1;
-    z-index: 2;
-  }
-
-  50% {
-    color: #c5c5c5;
-    opacity: 1;
-    text-shadow: 0px 0px 8px #c5c5c5;
-    z-index: 1;
-  }
-
-  100% {
-    color: #f1f1f1;
-    opacity: 10;
-    text-shadow: 0px 0px 8px #f1f1f1;
-    z-index: 2;
-  }
-} */
 
 @media screen and (max-width: 375px) {
 
@@ -152,37 +139,33 @@ body {
   .word {
     font-size: 270px;
     transform: rotate(90deg);
-    margin-left: -330px;
-    margin-top: -150px;
+    top: 225px;
+    left: -150px;
     letter-spacing: -1px;
   }
 
   .buttonBlend {
-    margin-left: 130px;
+    margin-left: 140px;
     top: 50%;
-    width: 25px;
-    height: 25px;
   }
 
   .buttonCMYK {
-    margin-left: 130px;
+    margin-left: 140px;
     top: 50%;
-    width: 25px;
-    height: 25px;
   }
 
   .buttonCMYKBlend {
-    margin-left: 130px;
+    margin-left: 140px;
     top: 50%;
-    width: 25px;
-    height: 25px;
   }
 
   .buttonNormal {
-    margin-left: 130px;
+    margin-left: 140px;
     top: 50%;
-    width: 25px;
-    height: 25px;
+  }
+
+  .allWords {
+    visibility: hidden;
   }
 
   }
