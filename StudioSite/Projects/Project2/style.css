@@ -137,7 +137,7 @@ body {
   }
 
   .word {
-    font-size: 270px;
+    font-size: 250px;
     transform: rotate(90deg);
     top: 215px;
     left: -150px;
@@ -148,26 +148,31 @@ body {
   .buttonBlend {
     margin-left: 140px;
     top: 50%;
+    position: fixed;
   }
 
   .buttonCMYK {
     margin-left: 140px;
     top: 50%;
+    position: fixed;
   }
 
   .buttonCMYKBlend {
     margin-left: 140px;
     top: 50%;
+    position: fixed;
   }
 
   .buttonNormal {
     margin-left: 140px;
     top: 50%;
+    position: fixed;
   }
 
   .allWords {
     font-size: 16px;
     line-height: 20px;
+    position: fixed;
   }
 
   }
