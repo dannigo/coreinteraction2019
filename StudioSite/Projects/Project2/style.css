@@ -106,7 +106,7 @@ body {
     top: 200px;
     left: -100px;
     letter-spacing: -1px;
-    position: fixed;
+    /* position: fixed; */
   }
 
   .buttonBlend {
