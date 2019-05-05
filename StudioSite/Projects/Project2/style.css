@@ -111,22 +111,26 @@ body {
 
   .buttonBlend {
     margin-left: 140px;
-    top: 420px;
+    top: 400px;
+    position: fixed;
   }
 
   .buttonCMYK {
     margin-left: 140px;
-    top: 420px;
+    top: 400px;
+    position: fixed;
   }
 
   .buttonCMYKBlend {
     margin-left: 140px;
-    top: 420px;
+    top: 400px;
+    position: fixed;
   }
 
   .buttonNormal {
     margin-left: 140px;
-    top: 420px;
+    top: 400px;
+    position: fixed;
   }
 
   .allWords {
