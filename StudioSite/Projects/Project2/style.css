@@ -111,7 +111,7 @@ body {
   .word {
     font-size: 240px;
     transform: rotate(90deg);
-    top: 260px;
+    top: 255px;
     left: -100px;
     letter-spacing: -1px;
     position: fixed;
